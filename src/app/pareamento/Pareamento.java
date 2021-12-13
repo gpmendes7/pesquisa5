@@ -1,6 +1,7 @@
 package app.pareamento;
 
 import static app.pareamento.FiltrosPareamento.filtrarRegistrosSivepPorFaixaEtaria;
+import static app.pareamento.FiltrosPareamento.filtrarRegistrosSivepPorResultadoPositivo;
 import static app.pareamento.FiltrosPareamento.filtrarRegistrosSusNaoUsados;
 import static app.pareamento.FiltrosPareamento.filtrarRegistrosSusPorAreaMunicipio;
 import static app.pareamento.FiltrosPareamento.filtrarRegistrosSusPorDataNotificacao;
@@ -60,9 +61,10 @@ public class Pareamento {
 	public void parearPacientesEntreSivepESus(int idadeMinima, int idadeMaxima, String arquivoTxt,
 			String csvResultadoPositivo, String csvResultadoNegativo, String csvSivepUsados, String csvSivepNaoUsados)
 			throws CsvDataTypeMismatchException, CsvRequiredFieldEmptyException, IOException, ParseException {
-		List<SivepRedomeCSV> registrosSivepFiltrados = filtrarRegistrosSivepPorFaixaEtaria(registrosSivep,
-				idadeMinima, idadeMaxima);
+		List<SivepRedomeCSV> registrosSivepFiltrados = filtrarRegistrosSivepPorFaixaEtaria(registrosSivep, idadeMinima, idadeMaxima);
 
+		registrosSivepFiltrados = filtrarRegistrosSivepPorResultadoPositivo(registrosSivepFiltrados);
+		
 		List<SusRedomeCSV> registrosSusTotaisFiltradosComResultadoPositivo = new ArrayList<>();
 		List<SusRedomeCSV> registrosSusTotaisFiltradosComResultadoNegativo = new ArrayList<>();
 
@@ -153,9 +155,9 @@ public class Pareamento {
 				if (filtragem < 2) {
 					registrosSusFiltradosRegistroSivep = filtrarRegistrosSusPorTipoTesteComCovid(
 							registrosSusFiltradosRegistroSivep);
-					fileWriter.write("Filtrou " + registrosSusFiltradosRegistroSivep.size() + " registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)\n");
+					fileWriter.write("Filtrou " + registrosSusFiltradosRegistroSivep.size() + " registros do sus por tipo teste RTPCR, Antígeno, Enzimaimunoensaio e Outros (nesta ordem)\n");
 				} else {
-					fileWriter.write("Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)\n");
+					fileWriter.write("Não filtrou registros do sus por tipo teste RTPCR, Antígeno, Enzimaimunoensaio e Outros (nesta ordem)\n");
 				}
 
 				int qtdRegistros;

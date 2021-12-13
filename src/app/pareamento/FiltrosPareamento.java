@@ -30,6 +30,12 @@ public class FiltrosPareamento {
 						 .collect(Collectors.toList());
 	}
 	
+	public static List<SivepRedomeCSV> filtrarRegistrosSivepPorResultadoPositivo(List<SivepRedomeCSV> registros) throws CsvDataTypeMismatchException, CsvRequiredFieldEmptyException, IOException {	
+		return registros.stream()
+						 .filter(r -> StringUtil.normalizarString(r.getResultadoTeste()).equals(StringUtil.normalizarString("Positivo")))
+						 .collect(Collectors.toList());
+	}
+	
 	public static List<SusRedomeCSV> filtrarRegistrosSusNaoUsados(List<SusRedomeCSV> registrosSus) throws CsvDataTypeMismatchException, CsvRequiredFieldEmptyException, IOException {
 		return registrosSus.stream()
 							.filter(r -> r.getObservacaoUso() == null || r.getObservacaoUso().equals(""))
