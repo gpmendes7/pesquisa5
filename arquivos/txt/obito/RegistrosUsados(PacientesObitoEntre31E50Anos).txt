@@ -1,0 +1,2066 @@
+***************************
+Número de registros do sivep com evolução caso Obito na faixa etaria de 31 a 50 anos usados para filtrar registros no sus: 41
+***************************
+***************************
+registro 1
+registro do sivep com identificacao 1322
+registro do sivep com nomeCompleto CRISTIANO CONCEICAO DOS SANTOS
+registro do sivep com dataNascimento 10/04/1980
+---------------------------
+Filtragem 1
+Filtrou 17851 registros do sus por faixa etária
+Filtrou 7271 registros do sus por sexo
+Filtrou 77 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 37 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 7 registros do sus por raça cor
+Filtrou 7 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 5 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 2 registros do sus com resultado Negativo
+Foram usados 2 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 2
+---------------------------
+Filtragem 2
+Filtrou 17844 registros do sus por faixa etária
+Filtrou 7264 registros do sus por sexo
+Filtrou 70 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 30 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 2
+---------------------------
+Filtragem 3
+Filtrou 17844 registros do sus por faixa etária
+Filtrou 7264 registros do sus por sexo
+Filtrou 70 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 30 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 5 registros do sus com resultado Negativo
+Foram usados 3 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 5
+---------------------------
+Resultados finais após filtragem 3
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 2
+registro do sivep com identificacao 1592
+registro do sivep com nomeCompleto MARGARETE DE OLIVEIRA FARIAS
+registro do sivep com dataNascimento 29/05/1970
+---------------------------
+Filtragem 1
+Filtrou 17841 registros do sus por faixa etária
+Filtrou 10580 registros do sus por sexo
+Filtrou 115 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 6 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 4 registros do sus por raça cor
+Filtrou 4 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 1 registros do sus com resultado Positivo
+Foram usados 1 registros do sus com resultado Positivo
+Filtrou 3 registros do sus com resultado Negativo
+Foram usados 3 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 1
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 3
+---------------------------
+Filtragem 2
+Filtrou 17837 registros do sus por faixa etária
+Filtrou 10576 registros do sus por sexo
+Filtrou 111 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 2 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 1
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 3
+---------------------------
+Filtragem 3
+Filtrou 17837 registros do sus por faixa etária
+Filtrou 10576 registros do sus por sexo
+Filtrou 111 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 2 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 2 registros do sus com resultado Positivo
+Foram usados 2 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 3
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 3
+---------------------------
+Filtragem 4
+Filtrou 17835 registros do sus por faixa etária
+Filtrou 10574 registros do sus por sexo
+Filtrou 109 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 3 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 3 registros do sus com resultado Positivo
+Foram usados 2 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 3
+---------------------------
+Filtragem 5
+Filtrou 17833 registros do sus por faixa etária
+Filtrou 10572 registros do sus por sexo
+Filtrou 217 registros do sus com 2 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 75 registros do sus com resultado Negativo
+Foram usados 2 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 5 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 5 : 5
+---------------------------
+Resultados finais após filtragem 5
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 3
+registro do sivep com identificacao 3057
+registro do sivep com nomeCompleto JORGE LUIS PISENTE DA SILVA
+registro do sivep com dataNascimento 03/05/1970
+---------------------------
+Filtragem 1
+Filtrou 17831 registros do sus por faixa etária
+Filtrou 7261 registros do sus por sexo
+Filtrou 65 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 27 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Filtrou 0 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 0
+---------------------------
+Filtragem 2
+Filtrou 17831 registros do sus por faixa etária
+Filtrou 7261 registros do sus por sexo
+Filtrou 65 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 27 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 0
+---------------------------
+Filtragem 3
+Filtrou 17831 registros do sus por faixa etária
+Filtrou 7261 registros do sus por sexo
+Filtrou 65 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 27 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 23 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 4 registros do sus com resultado Negativo
+Foram usados 4 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 4
+---------------------------
+Filtragem 4
+Filtrou 17822 registros do sus por faixa etária
+Filtrou 7252 registros do sus por sexo
+Filtrou 56 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 29 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 5 registros do sus com resultado Negativo
+Foram usados 1 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 5
+---------------------------
+Resultados finais após filtragem 4
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 4
+registro do sivep com identificacao 5808
+registro do sivep com nomeCompleto ANA MARCIA MOREIRA
+registro do sivep com dataNascimento 19/02/1971
+---------------------------
+Filtragem 1
+Filtrou 17821 registros do sus por faixa etária
+Filtrou 10570 registros do sus por sexo
+Filtrou 159 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 1 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Filtrou 0 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 0
+---------------------------
+Filtragem 2
+Filtrou 17821 registros do sus por faixa etária
+Filtrou 10570 registros do sus por sexo
+Filtrou 159 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 1 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 0
+---------------------------
+Filtragem 3
+Filtrou 17821 registros do sus por faixa etária
+Filtrou 10570 registros do sus por sexo
+Filtrou 159 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 1 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 1 registros do sus com resultado Positivo
+Foram usados 1 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 1
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 0
+---------------------------
+Filtragem 4
+Filtrou 17820 registros do sus por faixa etária
+Filtrou 10569 registros do sus por sexo
+Filtrou 158 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 85 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 56 registros do sus com resultado Positivo
+Foram usados 4 registros do sus com resultado Positivo
+Filtrou 29 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 5
+---------------------------
+Resultados finais após filtragem 4
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 5
+registro do sivep com identificacao 6084
+registro do sivep com nomeCompleto ALEXANDRE JOSE ANTONIO COELHO
+registro do sivep com dataNascimento 09/12/1973
+---------------------------
+Filtragem 1
+Filtrou 17811 registros do sus por faixa etária
+Filtrou 7251 registros do sus por sexo
+Filtrou 118 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 46 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 30 registros do sus por raça cor
+Filtrou 30 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 21 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 9 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 5
+---------------------------
+Resultados finais após filtragem 1
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 6
+registro do sivep com identificacao 7305
+registro do sivep com nomeCompleto PATRICIA SILVA DE FRANCA
+registro do sivep com dataNascimento 18/10/1978
+---------------------------
+Filtragem 1
+Filtrou 17801 registros do sus por faixa etária
+Filtrou 10560 registros do sus por sexo
+Filtrou 185 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 3 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Filtrou 0 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 0
+---------------------------
+Filtragem 2
+Filtrou 17801 registros do sus por faixa etária
+Filtrou 10560 registros do sus por sexo
+Filtrou 185 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 3 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 0
+---------------------------
+Filtragem 3
+Filtrou 17801 registros do sus por faixa etária
+Filtrou 10560 registros do sus por sexo
+Filtrou 185 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 3 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 1 registros do sus com resultado Positivo
+Foram usados 1 registros do sus com resultado Positivo
+Filtrou 2 registros do sus com resultado Negativo
+Foram usados 2 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 1
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 2
+---------------------------
+Filtragem 4
+Filtrou 17798 registros do sus por faixa etária
+Filtrou 10557 registros do sus por sexo
+Filtrou 182 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 0 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 1
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 2
+---------------------------
+Filtragem 5
+Filtrou 17798 registros do sus por faixa etária
+Filtrou 10557 registros do sus por sexo
+Filtrou 424 registros do sus com 2 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 228 registros do sus com resultado Positivo
+Foram usados 4 registros do sus com resultado Positivo
+Filtrou 196 registros do sus com resultado Negativo
+Foram usados 3 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 5 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 5 : 5
+---------------------------
+Resultados finais após filtragem 5
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 7
+registro do sivep com identificacao 8297
+registro do sivep com nomeCompleto FABRICIO DE OLIVEIRA FRANCA
+registro do sivep com dataNascimento 14/09/1977
+---------------------------
+Filtragem 1
+Filtrou 17791 registros do sus por faixa etária
+Filtrou 7241 registros do sus por sexo
+Filtrou 129 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 52 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 31 registros do sus por raça cor
+Filtrou 31 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 21 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 10 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 5
+---------------------------
+Resultados finais após filtragem 1
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 8
+registro do sivep com identificacao 9055
+registro do sivep com nomeCompleto MARCELO DA SILVA XAVIER LEITE
+registro do sivep com dataNascimento 28/06/1972
+---------------------------
+Filtragem 1
+Filtrou 17781 registros do sus por faixa etária
+Filtrou 7231 registros do sus por sexo
+Filtrou 117 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 42 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 21 registros do sus por raça cor
+Filtrou 21 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 16 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 5 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 5
+---------------------------
+Resultados finais após filtragem 1
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 9
+registro do sivep com identificacao 16401
+registro do sivep com nomeCompleto DAVID DA SILVA SANTOS JUNIOR
+registro do sivep com dataNascimento 30/10/1977
+---------------------------
+Filtragem 1
+Filtrou 17771 registros do sus por faixa etária
+Filtrou 7221 registros do sus por sexo
+Filtrou 220 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 84 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 20 registros do sus por raça cor
+Filtrou 20 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 14 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 6 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 5
+---------------------------
+Resultados finais após filtragem 1
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 10
+registro do sivep com identificacao 18858
+registro do sivep com nomeCompleto COSME FELISBERTO BARBOSA
+registro do sivep com dataNascimento 17/08/1977
+---------------------------
+Filtragem 1
+Filtrou 17761 registros do sus por faixa etária
+Filtrou 7211 registros do sus por sexo
+Filtrou 195 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 70 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 2 registros do sus por raça cor
+Filtrou 2 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 1 registros do sus com resultado Positivo
+Foram usados 1 registros do sus com resultado Positivo
+Filtrou 1 registros do sus com resultado Negativo
+Foram usados 1 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 1
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 1
+---------------------------
+Filtragem 2
+Filtrou 17759 registros do sus por faixa etária
+Filtrou 7209 registros do sus por sexo
+Filtrou 193 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 68 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 1
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 1
+---------------------------
+Filtragem 3
+Filtrou 17759 registros do sus por faixa etária
+Filtrou 7209 registros do sus por sexo
+Filtrou 193 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 68 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 39 registros do sus com resultado Positivo
+Foram usados 4 registros do sus com resultado Positivo
+Filtrou 29 registros do sus com resultado Negativo
+Foram usados 4 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 5
+---------------------------
+Resultados finais após filtragem 3
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 11
+registro do sivep com identificacao 20494
+registro do sivep com nomeCompleto MARCELO LUIS DA SILVA
+registro do sivep com dataNascimento 22/03/1972
+---------------------------
+Filtragem 1
+Filtrou 17751 registros do sus por faixa etária
+Filtrou 7201 registros do sus por sexo
+Filtrou 79 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 25 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Filtrou 0 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 0
+---------------------------
+Filtragem 2
+Filtrou 17751 registros do sus por faixa etária
+Filtrou 7201 registros do sus por sexo
+Filtrou 79 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 25 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 0
+---------------------------
+Filtragem 3
+Filtrou 17751 registros do sus por faixa etária
+Filtrou 7201 registros do sus por sexo
+Filtrou 79 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 25 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 24 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 1 registros do sus com resultado Negativo
+Foram usados 1 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 1
+---------------------------
+Filtragem 4
+Filtrou 17745 registros do sus por faixa etária
+Filtrou 7195 registros do sus por sexo
+Filtrou 73 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 33 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 3 registros do sus com resultado Negativo
+Foram usados 3 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 4
+---------------------------
+Filtragem 5
+Filtrou 17742 registros do sus por faixa etária
+Filtrou 7192 registros do sus por sexo
+Filtrou 127 registros do sus com 2 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 28 registros do sus com resultado Negativo
+Foram usados 1 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 5 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 5 : 5
+---------------------------
+Resultados finais após filtragem 5
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 12
+registro do sivep com identificacao 22174
+registro do sivep com nomeCompleto REGINA DE SOUZA OLIVEIRA
+registro do sivep com dataNascimento 02/12/1970
+---------------------------
+Filtragem 1
+Filtrou 17741 registros do sus por faixa etária
+Filtrou 10550 registros do sus por sexo
+Filtrou 143 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 0 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Filtrou 0 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 0
+---------------------------
+Filtragem 2
+Filtrou 17741 registros do sus por faixa etária
+Filtrou 10550 registros do sus por sexo
+Filtrou 143 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 0 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 0
+---------------------------
+Filtragem 3
+Filtrou 17741 registros do sus por faixa etária
+Filtrou 10550 registros do sus por sexo
+Filtrou 143 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 0 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 0
+---------------------------
+Filtragem 4
+Filtrou 17741 registros do sus por faixa etária
+Filtrou 10550 registros do sus por sexo
+Filtrou 143 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 10 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 4 registros do sus com resultado Positivo
+Foram usados 4 registros do sus com resultado Positivo
+Filtrou 6 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 4
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 5
+---------------------------
+Filtragem 5
+Filtrou 17732 registros do sus por faixa etária
+Filtrou 10541 registros do sus por sexo
+Filtrou 295 registros do sus com 2 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 176 registros do sus com resultado Positivo
+Foram usados 1 registros do sus com resultado Positivo
+Número atual de registros do sus usados com resultado Positivo após filtragem 5 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 5 : 5
+---------------------------
+Resultados finais após filtragem 5
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 13
+registro do sivep com identificacao 23291
+registro do sivep com nomeCompleto MAICON SA MONTEIRO DIAS
+registro do sivep com dataNascimento 04/12/1977
+---------------------------
+Filtragem 1
+Filtrou 17731 registros do sus por faixa etária
+Filtrou 7191 registros do sus por sexo
+Filtrou 265 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 9 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 2 registros do sus por raça cor
+Filtrou 2 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 2 registros do sus com resultado Positivo
+Foram usados 2 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 2
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 0
+---------------------------
+Filtragem 2
+Filtrou 17729 registros do sus por faixa etária
+Filtrou 7189 registros do sus por sexo
+Filtrou 263 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 7 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 2
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 0
+---------------------------
+Filtragem 3
+Filtrou 17729 registros do sus por faixa etária
+Filtrou 7189 registros do sus por sexo
+Filtrou 263 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 7 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 5 registros do sus com resultado Positivo
+Foram usados 3 registros do sus com resultado Positivo
+Filtrou 2 registros do sus com resultado Negativo
+Foram usados 2 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 2
+---------------------------
+Filtragem 4
+Filtrou 17724 registros do sus por faixa etária
+Filtrou 7184 registros do sus por sexo
+Filtrou 258 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 11 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 3 registros do sus com resultado Negativo
+Foram usados 3 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 5
+---------------------------
+Resultados finais após filtragem 4
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 14
+registro do sivep com identificacao 24593
+registro do sivep com nomeCompleto SANDRO MOURA DUARTE
+registro do sivep com dataNascimento 10/07/1975
+---------------------------
+Filtragem 1
+Filtrou 17721 registros do sus por faixa etária
+Filtrou 7181 registros do sus por sexo
+Filtrou 319 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 122 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 75 registros do sus por raça cor
+Filtrou 75 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 45 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 30 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 5
+---------------------------
+Resultados finais após filtragem 1
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 15
+registro do sivep com identificacao 27069
+registro do sivep com nomeCompleto FABIO BARBOSA ALEGRIA
+registro do sivep com dataNascimento 28/07/1972
+---------------------------
+Filtragem 1
+Filtrou 17711 registros do sus por faixa etária
+Filtrou 7171 registros do sus por sexo
+Filtrou 103 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 6 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 1 registros do sus por raça cor
+Filtrou 1 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 1 registros do sus com resultado Positivo
+Foram usados 1 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 1
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 0
+---------------------------
+Filtragem 2
+Filtrou 17710 registros do sus por faixa etária
+Filtrou 7170 registros do sus por sexo
+Filtrou 102 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 5 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 1
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 0
+---------------------------
+Filtragem 3
+Filtrou 17710 registros do sus por faixa etária
+Filtrou 7170 registros do sus por sexo
+Filtrou 102 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 5 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 4 registros do sus com resultado Positivo
+Foram usados 4 registros do sus com resultado Positivo
+Filtrou 1 registros do sus com resultado Negativo
+Foram usados 1 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 1
+---------------------------
+Filtragem 4
+Filtrou 17705 registros do sus por faixa etária
+Filtrou 7165 registros do sus por sexo
+Filtrou 97 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 42 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 15 registros do sus com resultado Negativo
+Foram usados 4 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 5
+---------------------------
+Resultados finais após filtragem 4
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 16
+registro do sivep com identificacao 29680
+registro do sivep com nomeCompleto MARIANA BRINER DE OLIVEIRA MENDES
+registro do sivep com dataNascimento 09/07/1987
+---------------------------
+Filtragem 1
+Filtrou 17701 registros do sus por faixa etária
+Filtrou 10540 registros do sus por sexo
+Filtrou 438 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 104 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 67 registros do sus por raça cor
+Filtrou 67 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 28 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 39 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 5
+---------------------------
+Resultados finais após filtragem 1
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 17
+registro do sivep com identificacao 29704
+registro do sivep com nomeCompleto SIMONE FERREIRA CARVALHO
+registro do sivep com dataNascimento 14/10/1976
+---------------------------
+Filtragem 1
+Filtrou 17691 registros do sus por faixa etária
+Filtrou 10530 registros do sus por sexo
+Filtrou 488 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 0 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Filtrou 0 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 0
+---------------------------
+Filtragem 2
+Filtrou 17691 registros do sus por faixa etária
+Filtrou 10530 registros do sus por sexo
+Filtrou 488 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 0 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 0
+---------------------------
+Filtragem 3
+Filtrou 17691 registros do sus por faixa etária
+Filtrou 10530 registros do sus por sexo
+Filtrou 488 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 0 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 0
+---------------------------
+Filtragem 4
+Filtrou 17691 registros do sus por faixa etária
+Filtrou 10530 registros do sus por sexo
+Filtrou 488 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 28 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 5 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 23 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 5
+---------------------------
+Resultados finais após filtragem 4
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 18
+registro do sivep com identificacao 31034
+registro do sivep com nomeCompleto SHIRLEY JUSTINO DA SILVA
+registro do sivep com dataNascimento 26/02/1988
+---------------------------
+Filtragem 1
+Filtrou 17681 registros do sus por faixa etária
+Filtrou 10520 registros do sus por sexo
+Filtrou 518 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 8 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 4 registros do sus por raça cor
+Filtrou 4 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 2 registros do sus com resultado Positivo
+Foram usados 2 registros do sus com resultado Positivo
+Filtrou 2 registros do sus com resultado Negativo
+Foram usados 2 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 2
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 2
+---------------------------
+Filtragem 2
+Filtrou 17677 registros do sus por faixa etária
+Filtrou 10516 registros do sus por sexo
+Filtrou 514 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 4 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 2
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 2
+---------------------------
+Filtragem 3
+Filtrou 17677 registros do sus por faixa etária
+Filtrou 10516 registros do sus por sexo
+Filtrou 514 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 4 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 1 registros do sus com resultado Positivo
+Foram usados 1 registros do sus com resultado Positivo
+Filtrou 3 registros do sus com resultado Negativo
+Foram usados 3 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 3
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 5
+---------------------------
+Filtragem 4
+Filtrou 17673 registros do sus por faixa etária
+Filtrou 10512 registros do sus por sexo
+Filtrou 510 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 47 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 24 registros do sus com resultado Positivo
+Foram usados 2 registros do sus com resultado Positivo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 5
+---------------------------
+Resultados finais após filtragem 4
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 19
+registro do sivep com identificacao 32343
+registro do sivep com nomeCompleto MARIA ANDREIA DA SILVA LAURENTINO
+registro do sivep com dataNascimento 23/08/1970
+---------------------------
+Filtragem 1
+Filtrou 17671 registros do sus por faixa etária
+Filtrou 10510 registros do sus por sexo
+Filtrou 270 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 108 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 55 registros do sus por raça cor
+Filtrou 55 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 27 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 28 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 5
+---------------------------
+Resultados finais após filtragem 1
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 20
+registro do sivep com identificacao 33897
+registro do sivep com nomeCompleto FRANCISCO ORLANDO DO NASCIMENTO RIBEIRO
+registro do sivep com dataNascimento 20/02/1977
+---------------------------
+Filtragem 1
+Filtrou 17661 registros do sus por faixa etária
+Filtrou 7161 registros do sus por sexo
+Filtrou 107 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 31 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 13 registros do sus por raça cor
+Filtrou 13 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 12 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 1 registros do sus com resultado Negativo
+Foram usados 1 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 1
+---------------------------
+Filtragem 2
+Filtrou 17655 registros do sus por faixa etária
+Filtrou 7155 registros do sus por sexo
+Filtrou 101 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 25 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 7 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 1
+---------------------------
+Filtragem 3
+Filtrou 17655 registros do sus por faixa etária
+Filtrou 7155 registros do sus por sexo
+Filtrou 101 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 25 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 8 registros do sus com resultado Negativo
+Foram usados 4 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 5
+---------------------------
+Resultados finais após filtragem 3
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 21
+registro do sivep com identificacao 34662
+registro do sivep com nomeCompleto CELIA ADREANA REZENDE SILVA
+registro do sivep com dataNascimento 18/04/1972
+---------------------------
+Filtragem 1
+Filtrou 17651 registros do sus por faixa etária
+Filtrou 10500 registros do sus por sexo
+Filtrou 482 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 115 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 20 registros do sus por raça cor
+Filtrou 20 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 9 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 11 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 5
+---------------------------
+Resultados finais após filtragem 1
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 22
+registro do sivep com identificacao 39226
+registro do sivep com nomeCompleto CARLA DE OLIVEIRA OBELAR
+registro do sivep com dataNascimento 11/04/1978
+---------------------------
+Filtragem 1
+Filtrou 17641 registros do sus por faixa etária
+Filtrou 10490 registros do sus por sexo
+Filtrou 175 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 66 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 6 registros do sus por raça cor
+Filtrou 6 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 5 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 1 registros do sus com resultado Negativo
+Foram usados 1 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 1
+---------------------------
+Filtragem 2
+Filtrou 17635 registros do sus por faixa etária
+Filtrou 10484 registros do sus por sexo
+Filtrou 169 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 60 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 1
+---------------------------
+Filtragem 3
+Filtrou 17635 registros do sus por faixa etária
+Filtrou 10484 registros do sus por sexo
+Filtrou 169 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 60 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 24 registros do sus com resultado Negativo
+Foram usados 4 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 5
+---------------------------
+Resultados finais após filtragem 3
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 23
+registro do sivep com identificacao 39280
+registro do sivep com nomeCompleto LIEDSON ALVES SILVEIRA
+registro do sivep com dataNascimento 09/03/1988
+---------------------------
+Filtragem 1
+Filtrou 17631 registros do sus por faixa etária
+Filtrou 7151 registros do sus por sexo
+Filtrou 245 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 7 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 3 registros do sus por raça cor
+Filtrou 3 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 1 registros do sus com resultado Positivo
+Foram usados 1 registros do sus com resultado Positivo
+Filtrou 2 registros do sus com resultado Negativo
+Foram usados 2 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 1
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 2
+---------------------------
+Filtragem 2
+Filtrou 17628 registros do sus por faixa etária
+Filtrou 7148 registros do sus por sexo
+Filtrou 242 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 4 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 1
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 2
+---------------------------
+Filtragem 3
+Filtrou 17628 registros do sus por faixa etária
+Filtrou 7148 registros do sus por sexo
+Filtrou 242 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 4 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 1 registros do sus com resultado Positivo
+Foram usados 1 registros do sus com resultado Positivo
+Filtrou 3 registros do sus com resultado Negativo
+Foram usados 3 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 2
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 5
+---------------------------
+Filtragem 4
+Filtrou 17624 registros do sus por faixa etária
+Filtrou 7144 registros do sus por sexo
+Filtrou 238 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 73 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 28 registros do sus com resultado Positivo
+Foram usados 3 registros do sus com resultado Positivo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 5
+---------------------------
+Resultados finais após filtragem 4
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 24
+registro do sivep com identificacao 41120
+registro do sivep com nomeCompleto MICHEL SILVA MASSARIOL
+registro do sivep com dataNascimento 08/04/1980
+---------------------------
+Filtragem 1
+Filtrou 17621 registros do sus por faixa etária
+Filtrou 7141 registros do sus por sexo
+Filtrou 215 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 5 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 3 registros do sus por raça cor
+Filtrou 3 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 1 registros do sus com resultado Positivo
+Foram usados 1 registros do sus com resultado Positivo
+Filtrou 2 registros do sus com resultado Negativo
+Foram usados 2 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 1
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 2
+---------------------------
+Filtragem 2
+Filtrou 17618 registros do sus por faixa etária
+Filtrou 7138 registros do sus por sexo
+Filtrou 212 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 2 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 1
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 2
+---------------------------
+Filtragem 3
+Filtrou 17618 registros do sus por faixa etária
+Filtrou 7138 registros do sus por sexo
+Filtrou 212 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 2 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 1 registros do sus com resultado Positivo
+Foram usados 1 registros do sus com resultado Positivo
+Filtrou 1 registros do sus com resultado Negativo
+Foram usados 1 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 2
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 3
+---------------------------
+Filtragem 4
+Filtrou 17616 registros do sus por faixa etária
+Filtrou 7136 registros do sus por sexo
+Filtrou 210 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 20 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 6 registros do sus com resultado Positivo
+Foram usados 3 registros do sus com resultado Positivo
+Filtrou 14 registros do sus com resultado Negativo
+Foram usados 2 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 5
+---------------------------
+Resultados finais após filtragem 4
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 25
+registro do sivep com identificacao 42790
+registro do sivep com nomeCompleto PATRICIA FERREIRA LEITE
+registro do sivep com dataNascimento 11/04/1984
+---------------------------
+Filtragem 1
+Filtrou 17611 registros do sus por faixa etária
+Filtrou 10480 registros do sus por sexo
+Filtrou 309 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 0 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Filtrou 0 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 0
+---------------------------
+Filtragem 2
+Filtrou 17611 registros do sus por faixa etária
+Filtrou 10480 registros do sus por sexo
+Filtrou 309 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 0 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 0
+---------------------------
+Filtragem 3
+Filtrou 17611 registros do sus por faixa etária
+Filtrou 10480 registros do sus por sexo
+Filtrou 309 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 0 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 0
+---------------------------
+Filtragem 4
+Filtrou 17611 registros do sus por faixa etária
+Filtrou 10480 registros do sus por sexo
+Filtrou 309 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 37 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 15 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 22 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 5
+---------------------------
+Resultados finais após filtragem 4
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 26
+registro do sivep com identificacao 43368
+registro do sivep com nomeCompleto JEAN CARLOS PAULO
+registro do sivep com dataNascimento 28/01/1982
+---------------------------
+Filtragem 1
+Filtrou 17601 registros do sus por faixa etária
+Filtrou 7131 registros do sus por sexo
+Filtrou 234 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 9 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 1 registros do sus por raça cor
+Filtrou 1 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 1 registros do sus com resultado Positivo
+Foram usados 1 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 1
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 0
+---------------------------
+Filtragem 2
+Filtrou 17600 registros do sus por faixa etária
+Filtrou 7130 registros do sus por sexo
+Filtrou 233 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 8 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 1
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 0
+---------------------------
+Filtragem 3
+Filtrou 17600 registros do sus por faixa etária
+Filtrou 7130 registros do sus por sexo
+Filtrou 233 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 8 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 5 registros do sus com resultado Positivo
+Foram usados 4 registros do sus com resultado Positivo
+Filtrou 3 registros do sus com resultado Negativo
+Foram usados 3 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 3
+---------------------------
+Filtragem 4
+Filtrou 17593 registros do sus por faixa etária
+Filtrou 7123 registros do sus por sexo
+Filtrou 226 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 23 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 13 registros do sus com resultado Negativo
+Foram usados 2 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 5
+---------------------------
+Resultados finais após filtragem 4
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 27
+registro do sivep com identificacao 50853
+registro do sivep com nomeCompleto MARCELO DOS SANTOS SILVA
+registro do sivep com dataNascimento 04/05/1972
+---------------------------
+Filtragem 1
+Filtrou 17591 registros do sus por faixa etária
+Filtrou 7121 registros do sus por sexo
+Filtrou 161 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 0 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Filtrou 0 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 0
+---------------------------
+Filtragem 2
+Filtrou 17591 registros do sus por faixa etária
+Filtrou 7121 registros do sus por sexo
+Filtrou 161 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 0 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 0
+---------------------------
+Filtragem 3
+Filtrou 17591 registros do sus por faixa etária
+Filtrou 7121 registros do sus por sexo
+Filtrou 161 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 0 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 0
+---------------------------
+Filtragem 4
+Filtrou 17591 registros do sus por faixa etária
+Filtrou 7121 registros do sus por sexo
+Filtrou 161 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 75 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 36 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 39 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 5
+---------------------------
+Resultados finais após filtragem 4
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 28
+registro do sivep com identificacao 54591
+registro do sivep com nomeCompleto ALINE MELLO FARIAS
+registro do sivep com dataNascimento 14/01/1976
+---------------------------
+Filtragem 1
+Filtrou 17581 registros do sus por faixa etária
+Filtrou 10470 registros do sus por sexo
+Filtrou 469 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 149 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 95 registros do sus por raça cor
+Filtrou 95 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 47 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 47 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 5
+---------------------------
+Resultados finais após filtragem 1
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 29
+registro do sivep com identificacao 55207
+registro do sivep com nomeCompleto GEOVANE ALVES RAMOS
+registro do sivep com dataNascimento 21/02/1970
+---------------------------
+Filtragem 1
+Filtrou 17571 registros do sus por faixa etária
+Filtrou 7111 registros do sus por sexo
+Filtrou 268 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 6 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 1 registros do sus por raça cor
+Filtrou 1 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 1 registros do sus com resultado Negativo
+Foram usados 1 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 1
+---------------------------
+Filtragem 2
+Filtrou 17570 registros do sus por faixa etária
+Filtrou 7110 registros do sus por sexo
+Filtrou 267 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 5 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 1
+---------------------------
+Filtragem 3
+Filtrou 17570 registros do sus por faixa etária
+Filtrou 7110 registros do sus por sexo
+Filtrou 267 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 5 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 1 registros do sus com resultado Positivo
+Foram usados 1 registros do sus com resultado Positivo
+Filtrou 4 registros do sus com resultado Negativo
+Foram usados 4 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 1
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 5
+---------------------------
+Filtragem 4
+Filtrou 17565 registros do sus por faixa etária
+Filtrou 7105 registros do sus por sexo
+Filtrou 262 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 16 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 7 registros do sus com resultado Positivo
+Foram usados 4 registros do sus com resultado Positivo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 5
+---------------------------
+Resultados finais após filtragem 4
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 30
+registro do sivep com identificacao 57568
+registro do sivep com nomeCompleto CAMILA POLIDO FERRER DE ALMEIDA
+registro do sivep com dataNascimento 06/05/1982
+---------------------------
+Filtragem 1
+Filtrou 17561 registros do sus por faixa etária
+Filtrou 10460 registros do sus por sexo
+Filtrou 557 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 198 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 114 registros do sus por raça cor
+Filtrou 114 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 56 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 58 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 5
+---------------------------
+Resultados finais após filtragem 1
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 31
+registro do sivep com identificacao 59069
+registro do sivep com nomeCompleto MARCOS ANTONIO DA SILVA PEREIRA
+registro do sivep com dataNascimento 23/08/1975
+---------------------------
+Filtragem 1
+Filtrou 17551 registros do sus por faixa etária
+Filtrou 7101 registros do sus por sexo
+Filtrou 335 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 40 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 3 registros do sus por raça cor
+Filtrou 3 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 2 registros do sus com resultado Positivo
+Foram usados 2 registros do sus com resultado Positivo
+Filtrou 1 registros do sus com resultado Negativo
+Foram usados 1 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 2
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 1
+---------------------------
+Filtragem 2
+Filtrou 17548 registros do sus por faixa etária
+Filtrou 7098 registros do sus por sexo
+Filtrou 332 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 37 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 2
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 1
+---------------------------
+Filtragem 3
+Filtrou 17548 registros do sus por faixa etária
+Filtrou 7098 registros do sus por sexo
+Filtrou 332 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 37 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 14 registros do sus com resultado Positivo
+Foram usados 3 registros do sus com resultado Positivo
+Filtrou 23 registros do sus com resultado Negativo
+Foram usados 4 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 5
+---------------------------
+Resultados finais após filtragem 3
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 32
+registro do sivep com identificacao 59346
+registro do sivep com nomeCompleto ROSANE DA SILVA SCUTO
+registro do sivep com dataNascimento 17/09/1972
+---------------------------
+Filtragem 1
+Filtrou 17541 registros do sus por faixa etária
+Filtrou 10450 registros do sus por sexo
+Filtrou 547 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 188 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 104 registros do sus por raça cor
+Filtrou 104 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 51 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 53 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 5
+---------------------------
+Resultados finais após filtragem 1
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 33
+registro do sivep com identificacao 60128
+registro do sivep com nomeCompleto ANDRE JOSE NUNES MORAES
+registro do sivep com dataNascimento 20/03/1970
+---------------------------
+Filtragem 1
+Filtrou 17531 registros do sus por faixa etária
+Filtrou 7091 registros do sus por sexo
+Filtrou 361 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 123 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 17 registros do sus por raça cor
+Filtrou 17 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 8 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 9 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 5
+---------------------------
+Resultados finais após filtragem 1
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 34
+registro do sivep com identificacao 60693
+registro do sivep com nomeCompleto ERNANDE BARBOSA DA SILVA
+registro do sivep com dataNascimento 24/09/1973
+---------------------------
+Filtragem 1
+Filtrou 17521 registros do sus por faixa etária
+Filtrou 7081 registros do sus por sexo
+Filtrou 420 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 0 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Filtrou 0 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 0
+---------------------------
+Filtragem 2
+Filtrou 17521 registros do sus por faixa etária
+Filtrou 7081 registros do sus por sexo
+Filtrou 420 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 0 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 0
+---------------------------
+Filtragem 3
+Filtrou 17521 registros do sus por faixa etária
+Filtrou 7081 registros do sus por sexo
+Filtrou 420 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 0 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 0
+---------------------------
+Filtragem 4
+Filtrou 17521 registros do sus por faixa etária
+Filtrou 7081 registros do sus por sexo
+Filtrou 420 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 168 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 98 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 69 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 5
+---------------------------
+Resultados finais após filtragem 4
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 35
+registro do sivep com identificacao 64192
+registro do sivep com nomeCompleto VANDERVAL VITORINO
+registro do sivep com dataNascimento 27/08/1972
+---------------------------
+Filtragem 1
+Filtrou 17511 registros do sus por faixa etária
+Filtrou 7071 registros do sus por sexo
+Filtrou 318 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 0 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Filtrou 0 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 0
+---------------------------
+Filtragem 2
+Filtrou 17511 registros do sus por faixa etária
+Filtrou 7071 registros do sus por sexo
+Filtrou 318 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 0 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 0
+---------------------------
+Filtragem 3
+Filtrou 17511 registros do sus por faixa etária
+Filtrou 7071 registros do sus por sexo
+Filtrou 318 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 0 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 0
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 0
+---------------------------
+Filtragem 4
+Filtrou 17511 registros do sus por faixa etária
+Filtrou 7071 registros do sus por sexo
+Filtrou 318 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 8 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 5 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 3 registros do sus com resultado Negativo
+Foram usados 3 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 3
+---------------------------
+Filtragem 5
+Filtrou 17503 registros do sus por faixa etária
+Filtrou 7063 registros do sus por sexo
+Filtrou 622 registros do sus com 2 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 263 registros do sus com resultado Negativo
+Foram usados 2 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 5 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 5 : 5
+---------------------------
+Resultados finais após filtragem 5
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 36
+registro do sivep com identificacao 67849
+registro do sivep com nomeCompleto VITTORIA CRISTINA ALESSANDRO
+registro do sivep com dataNascimento 14/07/1978
+---------------------------
+Filtragem 1
+Filtrou 17501 registros do sus por faixa etária
+Filtrou 10440 registros do sus por sexo
+Filtrou 501 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 146 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 30 registros do sus por raça cor
+Filtrou 30 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 18 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 11 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 5
+---------------------------
+Resultados finais após filtragem 1
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 37
+registro do sivep com identificacao 68307
+registro do sivep com nomeCompleto WALLACE MOREIRA PINTO
+registro do sivep com dataNascimento 14/06/1983
+---------------------------
+Filtragem 1
+Filtrou 17491 registros do sus por faixa etária
+Filtrou 7061 registros do sus por sexo
+Filtrou 423 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 11 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 3 registros do sus por raça cor
+Filtrou 3 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 3 registros do sus com resultado Positivo
+Foram usados 3 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 3
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 0
+---------------------------
+Filtragem 2
+Filtrou 17488 registros do sus por faixa etária
+Filtrou 7058 registros do sus por sexo
+Filtrou 420 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 8 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 3
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 0
+---------------------------
+Filtragem 3
+Filtrou 17488 registros do sus por faixa etária
+Filtrou 7058 registros do sus por sexo
+Filtrou 420 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 8 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 5 registros do sus com resultado Positivo
+Foram usados 2 registros do sus com resultado Positivo
+Filtrou 3 registros do sus com resultado Negativo
+Foram usados 3 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 3
+---------------------------
+Filtragem 4
+Filtrou 17483 registros do sus por faixa etária
+Filtrou 7053 registros do sus por sexo
+Filtrou 415 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 19 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 8 registros do sus com resultado Negativo
+Foram usados 2 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 5
+---------------------------
+Resultados finais após filtragem 4
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 38
+registro do sivep com identificacao 68491
+registro do sivep com nomeCompleto RENATA SENGES VERGUEIRO DE PAULA
+registro do sivep com dataNascimento 22/10/1971
+---------------------------
+Filtragem 1
+Filtrou 17481 registros do sus por faixa etária
+Filtrou 10430 registros do sus por sexo
+Filtrou 416 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 126 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 83 registros do sus por raça cor
+Filtrou 83 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 23 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 60 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 5
+---------------------------
+Resultados finais após filtragem 1
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 39
+registro do sivep com identificacao 69718
+registro do sivep com nomeCompleto PAULO IGOR DA SILVA CARELLI
+registro do sivep com dataNascimento 11/12/1981
+---------------------------
+Filtragem 1
+Filtrou 17471 registros do sus por faixa etária
+Filtrou 7051 registros do sus por sexo
+Filtrou 361 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 6 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 1 registros do sus por raça cor
+Filtrou 1 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 1 registros do sus com resultado Positivo
+Foram usados 1 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 1
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 0
+---------------------------
+Filtragem 2
+Filtrou 17470 registros do sus por faixa etária
+Filtrou 7050 registros do sus por sexo
+Filtrou 360 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 5 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 1
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 0
+---------------------------
+Filtragem 3
+Filtrou 17470 registros do sus por faixa etária
+Filtrou 7050 registros do sus por sexo
+Filtrou 360 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 5 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 3 registros do sus com resultado Positivo
+Foram usados 3 registros do sus com resultado Positivo
+Filtrou 2 registros do sus com resultado Negativo
+Foram usados 2 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 4
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 2
+---------------------------
+Filtragem 4
+Filtrou 17465 registros do sus por faixa etária
+Filtrou 7045 registros do sus por sexo
+Filtrou 355 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 28 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 22 registros do sus com resultado Positivo
+Foram usados 1 registros do sus com resultado Positivo
+Filtrou 6 registros do sus com resultado Negativo
+Foram usados 3 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 5
+---------------------------
+Resultados finais após filtragem 4
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 40
+registro do sivep com identificacao 79382
+registro do sivep com nomeCompleto JONATHAN ANTONIO DE ANDRADE JUNIOR
+registro do sivep com dataNascimento 28/03/1990
+---------------------------
+Filtragem 1
+Filtrou 17461 registros do sus por faixa etária
+Filtrou 7041 registros do sus por sexo
+Filtrou 225 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 68 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 30 registros do sus por raça cor
+Filtrou 30 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 10 registros do sus com resultado Positivo
+Foram usados 5 registros do sus com resultado Positivo
+Filtrou 18 registros do sus com resultado Negativo
+Foram usados 5 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 5
+---------------------------
+Resultados finais após filtragem 1
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
+***************************
+registro 41
+registro do sivep com identificacao 79643
+registro do sivep com nomeCompleto RENATO CARLOS MARTINS
+registro do sivep com dataNascimento 09/01/1977
+---------------------------
+Filtragem 1
+Filtrou 17451 registros do sus por faixa etária
+Filtrou 7031 registros do sus por sexo
+Filtrou 410 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 3 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 2 registros do sus por raça cor
+Filtrou 2 registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 2 registros do sus com resultado Positivo
+Foram usados 2 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 1 : 2
+Número atual de registros do sus usados com resultado Negativo após filtragem 1 : 0
+---------------------------
+Filtragem 2
+Filtrou 17449 registros do sus por faixa etária
+Filtrou 7029 registros do sus por sexo
+Filtrou 408 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 1 registros do sus por município
+Não filtrou registros do sus por área
+Filtrou 0 registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 0 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 2 : 2
+Número atual de registros do sus usados com resultado Negativo após filtragem 2 : 0
+---------------------------
+Filtragem 3
+Filtrou 17449 registros do sus por faixa etária
+Filtrou 7029 registros do sus por sexo
+Filtrou 408 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Filtrou 1 registros do sus por município
+Não filtrou registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 0 registros do sus com resultado Positivo
+Filtrou 1 registros do sus com resultado Negativo
+Foram usados 1 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 3 : 2
+Número atual de registros do sus usados com resultado Negativo após filtragem 3 : 1
+---------------------------
+Filtragem 4
+Filtrou 17448 registros do sus por faixa etária
+Filtrou 7028 registros do sus por sexo
+Filtrou 407 registros do sus com 1 semana(s) para trás e para frente por data de notificação
+Não filtrou registros do sus por município
+Filtrou 168 registros do sus por área
+Não filtrou registros do sus por raça cor
+Não filtrou registros do sus por tipo teste RTPCR, Antígeno e Anticorpo (nesta ordem)
+Filtrou 99 registros do sus com resultado Positivo
+Foram usados 3 registros do sus com resultado Positivo
+Filtrou 69 registros do sus com resultado Negativo
+Foram usados 4 registros do sus com resultado Negativo
+Número atual de registros do sus usados com resultado Positivo após filtragem 4 : 5
+Número atual de registros do sus usados com resultado Negativo após filtragem 4 : 5
+---------------------------
+Resultados finais após filtragem 4
+Número final de registros do sus usados com resultado Positivo: 5
+Número final de registros do sus usados com resultado Negativo: 5
+***************************
