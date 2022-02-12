@@ -1,16 +1,9 @@
-package app.pareamento;
+package app.pareamento.semfiltro;
 
 import static app.pareamento.FiltrosPareamento.filtrarRegistrosSivepPorFaixaEtaria;
 import static app.pareamento.FiltrosPareamento.filtrarRegistrosSivepPorResultadoPositivo;
 import static app.pareamento.FiltrosPareamento.filtrarRegistrosSusNaoUsados;
-import static app.pareamento.FiltrosPareamento.filtrarRegistrosSusPorAreaMunicipio;
-import static app.pareamento.FiltrosPareamento.filtrarRegistrosSusPorDataNotificacao;
-import static app.pareamento.FiltrosPareamento.filtrarRegistrosSusPorFaixaEtaria;
-import static app.pareamento.FiltrosPareamento.filtrarRegistrosSusPorMunicipio;
-import static app.pareamento.FiltrosPareamento.filtrarRegistrosSusPorRacaCor;
 import static app.pareamento.FiltrosPareamento.filtrarRegistrosSusPorResultado;
-import static app.pareamento.FiltrosPareamento.filtrarRegistrosSusPorSexo;
-import static app.pareamento.FiltrosPareamento.filtrarRegistrosSusPorTipoTesteComCovid;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -29,9 +22,9 @@ import csv.SusRedomeCSV;
 import csv.SusRedomeCSVHandler;
 import csv.SusRedomeCSVHandler2;
 
-public class Pareamento {
+public class PareamentoSemFiltro {
 	
-	private final static int NUMERO_POSITIVO_NEGATIVOS = 3; 
+	private final static int NUMERO_POSITIVO_NEGATIVOS = 4; 
 
 	private List<SivepRedomeCSV> registrosSivep;
 	private List<SusRedomeCSV> registrosSus;
@@ -40,7 +33,7 @@ public class Pareamento {
 	private FileWriter fileWriter;
 	private String situacao;
 	
-	public Pareamento(String situacao) {
+	public PareamentoSemFiltro(String situacao) {
 		this.situacao = situacao;
 	}
 
@@ -92,107 +85,17 @@ public class Pareamento {
 					.write("registro do sivep com dataNascimento " + registroSivepFiltrado.getDataNascimento() + "\n");
 
 			int filtragem = 1;
-			int numeroSemanas = 1;
 			List<SusRedomeCSV> registrosSusFiltradosRegistroSivepComResultadoPositivo = new ArrayList<>();
 			List<SusRedomeCSV> registrosSusFiltradosRegistroSivepComResultadoNegativo = new ArrayList<>();
+			
+			List<SusRedomeCSV> registrosSusFiltradosRegistroSivep = filtrarRegistrosSusNaoUsados(registrosSusAtualizado);
 
-			while (filtragem < 10 && (registrosSusFiltradosRegistroSivepComResultadoPositivo.size() < NUMERO_POSITIVO_NEGATIVOS
-					              || registrosSusFiltradosRegistroSivepComResultadoNegativo.size() < NUMERO_POSITIVO_NEGATIVOS)) {
-				fileWriter.write("---------------------------\n");
-				fileWriter.write("Filtragem " + filtragem + "\n");
-
-				List<SusRedomeCSV> registrosSusFiltradosRegistroSivep = filtrarRegistrosSusNaoUsados(
-						registrosSusAtualizado);
-
-				if (filtragem < 10) {
-					registrosSusFiltradosRegistroSivep = filtrarRegistrosSusPorFaixaEtaria(
-							registrosSusFiltradosRegistroSivep, idadeMinima, idadeMaxima);
-					fileWriter.write("Filtrou " + registrosSusFiltradosRegistroSivep.size() + " registros do sus por faixa etária\n");
-				} else {
-					fileWriter.write("Não filtrou registros do sus por faixa etária\n");
-				}
-				
-				if (filtragem < 9) {
-					registrosSusFiltradosRegistroSivep = filtrarRegistrosSusPorRacaCor(
-							registrosSusFiltradosRegistroSivep, registroSivepFiltrado);
-					fileWriter.write("Filtrou " + registrosSusFiltradosRegistroSivep.size() + " registros do sus por raça cor\n");
-				} else {
-					fileWriter.write("Não filtrou registros do sus por raça cor\n");
-				}
-
-				if (filtragem < 8) {
-					registrosSusFiltradosRegistroSivep = filtrarRegistrosSusPorDataNotificacao(
-							registrosSusFiltradosRegistroSivep, registroSivepFiltrado, numeroSemanas);
-					fileWriter.write("Filtrou " + registrosSusFiltradosRegistroSivep.size() + " registros do sus com "
-							+ numeroSemanas + " semana(s) para trás e para frente por data de notificação\n");
-				} else {
-					fileWriter.write("Não filtrou registros do sus por data de notificação\n");
-				}
-
-				if (filtragem < 4) {
-					registrosSusFiltradosRegistroSivep = filtrarRegistrosSusPorMunicipio(
-							registrosSusFiltradosRegistroSivep, registroSivepFiltrado);
-					fileWriter.write("Filtrou " + registrosSusFiltradosRegistroSivep.size() + " registros do sus por município\n");
-				} else {
-					fileWriter.write("Não filtrou registros do sus por município\n");
-				}
-
-				if (filtragem == 4) {
-					registrosSusFiltradosRegistroSivep = filtrarRegistrosSusPorAreaMunicipio(
-							registrosSusFiltradosRegistroSivep, registroSivepFiltrado);
-					fileWriter.write("Filtrou " + registrosSusFiltradosRegistroSivep.size() + " registros do sus por área\n");
-				} else {
-					fileWriter.write("Não filtrou registros do sus por área\n");
-				}
-				
-				if (filtragem < 3) {
-					registrosSusFiltradosRegistroSivep = filtrarRegistrosSusPorSexo(registrosSusFiltradosRegistroSivep,
-							registroSivepFiltrado);
-					fileWriter.write(
-							"Filtrou " + registrosSusFiltradosRegistroSivep.size() + " registros do sus por sexo\n");
-				} else {
-					fileWriter.write("Não filtrou registros do sus por sexo\n");
-				}
-
-				if (filtragem < 2) {
-					registrosSusFiltradosRegistroSivep = filtrarRegistrosSusPorTipoTesteComCovid(
-							registrosSusFiltradosRegistroSivep);
-					fileWriter.write("Filtrou " + registrosSusFiltradosRegistroSivep.size() + " registros do sus por tipo teste RTPCR, Antígeno, Enzimaimunoensaio e Outros (nesta ordem)\n");
-				} else {
-					fileWriter.write("Não filtrou registros do sus por tipo teste RTPCR, Antígeno, Enzimaimunoensaio e Outros (nesta ordem)\n");
-				}
-
-				int qtdRegistros;
-
-				if (registrosSusFiltradosRegistroSivepComResultadoPositivo.size() < NUMERO_POSITIVO_NEGATIVOS) {
-					qtdRegistros = NUMERO_POSITIVO_NEGATIVOS - registrosSusFiltradosRegistroSivepComResultadoPositivo.size();
-					registrosSusFiltradosRegistroSivepComResultadoPositivo.addAll(
-							obterRegistrosUsadosComResultadoPositivo(registrosSusFiltradosRegistroSivep, qtdRegistros));
-				}
-
-				if (registrosSusFiltradosRegistroSivepComResultadoNegativo.size() < NUMERO_POSITIVO_NEGATIVOS) {
-					qtdRegistros = NUMERO_POSITIVO_NEGATIVOS - registrosSusFiltradosRegistroSivepComResultadoNegativo.size();
-					registrosSusFiltradosRegistroSivepComResultadoNegativo.addAll(
-							obterRegistrosUsadosComResultadoNegativo(registrosSusFiltradosRegistroSivep, qtdRegistros));
-				}
-
-				fileWriter.write("Número atual de registros do sus usados com resultado Positivo após filtragem "
-						+ filtragem + " : " + registrosSusFiltradosRegistroSivepComResultadoPositivo.size() + "\n");
-				fileWriter.write("Número atual de registros do sus usados com resultado Negativo após filtragem "
-						+ filtragem + " : " + registrosSusFiltradosRegistroSivepComResultadoNegativo.size() + "\n");
-
-				filtragem++;
-
-				if (filtragem > 4 && filtragem < 8) {
-					numeroSemanas++;
-				}
-				
-				if(registrosSusFiltradosRegistroSivepComResultadoPositivo.size() == NUMERO_POSITIVO_NEGATIVOS &&
-				   registrosSusFiltradosRegistroSivepComResultadoNegativo.size() == NUMERO_POSITIVO_NEGATIVOS) {
-					break;
-				}
-			}
-
+			registrosSusFiltradosRegistroSivepComResultadoPositivo.addAll(
+					obterRegistrosUsadosComResultadoPositivo(registrosSusFiltradosRegistroSivep, NUMERO_POSITIVO_NEGATIVOS));
+			
+			registrosSusFiltradosRegistroSivepComResultadoNegativo.addAll(
+					obterRegistrosUsadosComResultadoNegativo(registrosSusFiltradosRegistroSivep, NUMERO_POSITIVO_NEGATIVOS));
+			
 			fileWriter.write("---------------------------\n");
 			fileWriter.write("Resultados finais após filtragem " + (filtragem - 1) + "\n");
 

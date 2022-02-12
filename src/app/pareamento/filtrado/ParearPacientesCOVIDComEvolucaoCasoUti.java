@@ -1,9 +1,9 @@
-package app.pareamento;
+package app.pareamento.filtrado;
 
 public class ParearPacientesCOVIDComEvolucaoCasoUti {
 	
 	public static void main(String[] args) throws Exception {
-        Pareamento pareamento = new Pareamento("Uti");
+        PareamentoFiltrado pareamento = new PareamentoFiltrado("Uti");
 		
 		pareamento.carregarArquivosCSV("./arquivos/csv/uti/SIVEP_REDOME2(UTI).csv", 
 									   "./arquivos/csv/Sus_REDOME(AposUsoObito).csv");
