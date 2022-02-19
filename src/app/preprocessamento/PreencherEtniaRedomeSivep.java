@@ -42,9 +42,9 @@ public class PreencherEtniaRedomeSivep {
 		}
 		
 		registros.add(0, new SivepRedomeCSV("identificacao", "nomeCompleto", "dataNascimento", "idade", 
-				                         "municipio", "id", "sexo", "racaCor", 
-				                         "dataInternacao", "dataInternacaoRedome", "dataEncerramento", "dataEncerramentoRedome", 
-				                         "evolucaoCaso", "evolucaoCasoRedome", "dataNotificacao", "resultadoTeste", "sexoRedome", "etniaRedome"));
+				                            "municipio", "id", "sexo", "racaCor", 
+				                            "dataInternacao", "dataInternacaoRedome", "dataEncerramento", "dataEncerramentoRedome", 
+				                            "evolucaoCaso", "evolucaoCasoRedome", "dataNotificacao", "resultadoTeste", "sexoRedome", "etniaRedome"));
 				
 		System.out.println("Arquivo " + arquivoEntrada);
 		System.out.println("registros com atributo etniaRedome modificados " + count);
