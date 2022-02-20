@@ -3,14 +3,17 @@ package app.util;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import static app.util.StringUtil.normalizarString;
 
 public class ConversaoSusSivep {
 	
-	public static String converterSexoSivepParaSus(String sexoSivep) {
-		if(sexoSivep.equals("F")) {
+	public static String normalizarSexo(String sexoSivep) {
+		if(normalizarString(sexoSivep).equals("F")) {
 			return "Feminino";
-		} else {
+		} else if(normalizarString(sexoSivep).equals("M")) {
 			return "Masculino";
+		} else {
+			return null;
 		}
 	}
 	

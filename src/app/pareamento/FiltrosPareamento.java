@@ -1,6 +1,6 @@
 package app.pareamento;
 
-import static app.util.ConversaoSusSivep.converterSexoSivepParaSus;
+import static app.util.ConversaoSusSivep.normalizarSexo;
 import static app.util.DataUtil.alterarDiasEmData;
 import static app.util.DataUtil.dataEstaEmIntervalo;
 import static app.util.StringUtil.normalizarString;
@@ -49,7 +49,7 @@ public class FiltrosPareamento {
 	}
 	
 	public static List<SusRedomeCSV> filtrarRegistrosSusPorSexo(List<SusRedomeCSV> registrosSus, SivepRedomeCSV registroSivepFiltrado) throws CsvDataTypeMismatchException, CsvRequiredFieldEmptyException, IOException {
-		String sexoSus = converterSexoSivepParaSus(registroSivepFiltrado.getSexo());
+		String sexoSus = normalizarSexo(registroSivepFiltrado.getSexo());
 		
 		return registrosSus.stream()
 						   .filter(r -> StringUtil.normalizarString(r.getSexo()).equals(StringUtil.normalizarString(sexoSus)))

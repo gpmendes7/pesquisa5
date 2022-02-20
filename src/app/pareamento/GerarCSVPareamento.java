@@ -1,7 +1,7 @@
 package app.pareamento;
 
 import static app.util.ConversaoSusSivep.converterDataNotificacaoSusParaSivep;
-import static app.util.ConversaoSusSivep.converterSexoSivepParaSus;
+import static app.util.ConversaoSusSivep.normalizarSexo;
 import static app.util.StringUtil.normalizarString;
 import static modelo.RegioesAdministrativas.obterNomeRegiaoMunicipio;
 
@@ -50,25 +50,25 @@ public class GerarCSVPareamento {
 		for (SivepRedomeCSV registroSivep : registrosSivepFaixa1) {
 			registrosPareamento.add(new PareamentoCSV(registroSivep.getId(), registroSivep.getIdentificacao(), registroSivep.getNomeCompleto(), 
 													  "", normalizarString(registroSivep.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSivep.getMunicipio())), "", 
-													  registroSivep.getDataNotificacao(), converterSexoSivepParaSus(converterSexoSivepParaSus(registroSivep.getSexo())), registroSivep.getIdade(), 
+													  registroSivep.getDataNotificacao(), normalizarSexo(registroSivep.getSexo()), registroSivep.getIdade(), 
 													  registroSivep.getRacaCor(), "", registroSivep.getResultadoTeste(), 
-													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "31-50", registroSivep.getSexoRedome(), registroSivep.getEtniaRedome()));
+													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "31-50", normalizarSexo(registroSivep.getSexoRedome()), registroSivep.getEtniaRedome()));
 		}
 		
 		for (SivepRedomeCSV registroSivep : registrosSivepFaixa2) {
 			registrosPareamento.add(new PareamentoCSV(registroSivep.getId(), registroSivep.getIdentificacao(), registroSivep.getNomeCompleto(), 
 													  "", normalizarString(registroSivep.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSivep.getMunicipio())), "", 
-													  registroSivep.getDataNotificacao(), converterSexoSivepParaSus(converterSexoSivepParaSus(registroSivep.getSexo())), registroSivep.getIdade(), 
+													  registroSivep.getDataNotificacao(), normalizarSexo(registroSivep.getSexo()), registroSivep.getIdade(), 
 													  registroSivep.getRacaCor(), "", registroSivep.getResultadoTeste(), 
-													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "51-59", registroSivep.getSexoRedome(), registroSivep.getEtniaRedome()));
+													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "51-59", normalizarSexo(registroSivep.getSexoRedome()), registroSivep.getEtniaRedome()));
 		}
 		
 		for (SivepRedomeCSV registroSivep : registrosSivepFaixa3) {
 			registrosPareamento.add(new PareamentoCSV(registroSivep.getId(), registroSivep.getIdentificacao(), registroSivep.getNomeCompleto(), 
 													  "", normalizarString(registroSivep.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSivep.getMunicipio())), "", 
-													  registroSivep.getDataNotificacao(), converterSexoSivepParaSus(converterSexoSivepParaSus(registroSivep.getSexo())), registroSivep.getIdade(), 
+													  registroSivep.getDataNotificacao(), normalizarSexo(registroSivep.getSexo()), registroSivep.getIdade(), 
 													  registroSivep.getRacaCor(), "", registroSivep.getResultadoTeste(), 
-													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "60-75", registroSivep.getSexoRedome(), registroSivep.getEtniaRedome()));
+													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "60-75", normalizarSexo(registroSivep.getSexoRedome()), registroSivep.getEtniaRedome()));
 		}
 		
 		List<SusRedomeCSV> registrosSusFaixa1 = new ArrayList<>();
@@ -80,7 +80,7 @@ public class GerarCSVPareamento {
 											          registroSus.getCpf(), normalizarString(registroSus.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSus.getMunicipio())), normalizarString(registroSus.getFiltroAreaMunicipio()), 
 											          converterDataNotificacaoSusParaSivep(registroSus.getDataNotificacao()), registroSus.getSexo(), registroSus.getIdade(), 
 											          registroSus.getRacaCor(), registroSus.getTipoTeste(), registroSus.getResultadoTeste(), 
-											          "", "esus", "OBITO", "31-50", registroSus.getSexoRedome(), registroSus.getEtniaRedome()));
+											          "", "esus", "OBITO", "31-50", normalizarSexo(registroSus.getSexoRedome()), registroSus.getEtniaRedome()));
 		}
 		
 		List<SusRedomeCSV> registrosSusFaixa2 = new ArrayList<>();
@@ -92,7 +92,7 @@ public class GerarCSVPareamento {
 											          registroSus.getCpf(), normalizarString(registroSus.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSus.getMunicipio())), normalizarString(registroSus.getFiltroAreaMunicipio()), 
 											          converterDataNotificacaoSusParaSivep(registroSus.getDataNotificacao()), registroSus.getSexo(), registroSus.getIdade(), 
 											          registroSus.getRacaCor(), registroSus.getTipoTeste(), registroSus.getResultadoTeste(), 
-											          "", "esus", "OBITO", "51-59", registroSus.getSexoRedome(), registroSus.getEtniaRedome()));
+											          "", "esus", "OBITO", "51-59", normalizarSexo(registroSus.getSexoRedome()), registroSus.getEtniaRedome()));
 		}
 		
 		List<SusRedomeCSV> registrosSusFaixa3 = new ArrayList<>();
@@ -104,7 +104,7 @@ public class GerarCSVPareamento {
 											          registroSus.getCpf(), normalizarString(registroSus.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSus.getMunicipio())), normalizarString(registroSus.getFiltroAreaMunicipio()), 
 											          converterDataNotificacaoSusParaSivep(registroSus.getDataNotificacao()), registroSus.getSexo(), registroSus.getIdade(), 
 											          registroSus.getRacaCor(), registroSus.getTipoTeste(), registroSus.getResultadoTeste(), 
-											          "", "esus", "OBITO", "60-75", registroSus.getSexoRedome(), registroSus.getEtniaRedome()));
+											          "", "esus", "OBITO", "60-75", normalizarSexo(registroSus.getSexoRedome()), registroSus.getEtniaRedome()));
 		}
 		
 	}
@@ -117,25 +117,25 @@ public class GerarCSVPareamento {
 		for (SivepRedomeCSV registroSivep : registrosSivepFaixa1) {
 			registrosPareamento.add(new PareamentoCSV(registroSivep.getId(), registroSivep.getIdentificacao(), registroSivep.getNomeCompleto(), 
 													  "", normalizarString(registroSivep.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSivep.getMunicipio())), "", 
-													  registroSivep.getDataNotificacao(), converterSexoSivepParaSus(converterSexoSivepParaSus(registroSivep.getSexo())), registroSivep.getIdade(), 
+													  registroSivep.getDataNotificacao(), normalizarSexo(registroSivep.getSexo()), registroSivep.getIdade(), 
 													  registroSivep.getRacaCor(), "", registroSivep.getResultadoTeste(), 
-													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "26-42", registroSivep.getSexoRedome(), registroSivep.getEtniaRedome()));
+													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "26-42", normalizarSexo(registroSivep.getSexoRedome()), registroSivep.getEtniaRedome()));
 		}
 		
 		for (SivepRedomeCSV registroSivep : registrosSivepFaixa2) {
 			registrosPareamento.add(new PareamentoCSV(registroSivep.getId(), registroSivep.getIdentificacao(), registroSivep.getNomeCompleto(), 
 													  "", normalizarString(registroSivep.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSivep.getMunicipio())), "", 
-													  registroSivep.getDataNotificacao(), converterSexoSivepParaSus(converterSexoSivepParaSus(registroSivep.getSexo())), registroSivep.getIdade(), 
+													  registroSivep.getDataNotificacao(), normalizarSexo(registroSivep.getSexo()), registroSivep.getIdade(), 
 													  registroSivep.getRacaCor(), "", registroSivep.getResultadoTeste(), 
-													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "43-53", registroSivep.getSexoRedome(), registroSivep.getEtniaRedome()));
+													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "43-53", normalizarSexo(registroSivep.getSexoRedome()), registroSivep.getEtniaRedome()));
 		}
 		
 		for (SivepRedomeCSV registroSivep : registrosSivepFaixa3) {
 			registrosPareamento.add(new PareamentoCSV(registroSivep.getId(), registroSivep.getIdentificacao(), registroSivep.getNomeCompleto(), 
 													  "", normalizarString(registroSivep.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSivep.getMunicipio())), "", 
-													  registroSivep.getDataNotificacao(), converterSexoSivepParaSus(converterSexoSivepParaSus(registroSivep.getSexo())), registroSivep.getIdade(), 
+													  registroSivep.getDataNotificacao(), normalizarSexo(registroSivep.getSexo()), registroSivep.getIdade(), 
 													  registroSivep.getRacaCor(), "", registroSivep.getResultadoTeste(), 
-													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "54-67", registroSivep.getSexoRedome(), registroSivep.getEtniaRedome()));
+													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "54-67", normalizarSexo(registroSivep.getSexoRedome()), registroSivep.getEtniaRedome()));
 		}
 		
 		List<SusRedomeCSV> registrosSusFaixa1 = new ArrayList<>();
@@ -147,7 +147,7 @@ public class GerarCSVPareamento {
 											          registroSus.getCpf(), normalizarString(registroSus.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSus.getMunicipio())), normalizarString(registroSus.getFiltroAreaMunicipio()), 
 											          converterDataNotificacaoSusParaSivep(registroSus.getDataNotificacao()), registroSus.getSexo(), registroSus.getIdade(), 
 											          registroSus.getRacaCor(), registroSus.getTipoTeste(), registroSus.getResultadoTeste(), 
-											          "", "esus", "UTI", "26-42", registroSus.getSexoRedome(), registroSus.getEtniaRedome()));
+											          "", "esus", "UTI", "26-42", normalizarSexo(registroSus.getSexoRedome()), registroSus.getEtniaRedome()));
 		}
 		
 		List<SusRedomeCSV> registrosSusFaixa2 = new ArrayList<>();
@@ -159,7 +159,7 @@ public class GerarCSVPareamento {
 											          registroSus.getCpf(), normalizarString(registroSus.getMunicipio()), normalizarString(obterNomeRegiaoMunicipio(registroSus.getMunicipio())), normalizarString(registroSus.getFiltroAreaMunicipio()), 
 											          converterDataNotificacaoSusParaSivep(registroSus.getDataNotificacao()), registroSus.getSexo(), registroSus.getIdade(), 
 											          registroSus.getRacaCor(), registroSus.getTipoTeste(), registroSus.getResultadoTeste(), 
-											          "", "esus", "UTI", "43-53", registroSus.getSexoRedome(), registroSus.getEtniaRedome()));
+											          "", "esus", "UTI", "43-53", normalizarSexo(registroSus.getSexoRedome()), registroSus.getEtniaRedome()));
 		}
 		
 		List<SusRedomeCSV> registrosSusFaixa3 = new ArrayList<>();
@@ -171,7 +171,7 @@ public class GerarCSVPareamento {
 											          registroSus.getCpf(), normalizarString(registroSus.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSus.getMunicipio())), normalizarString(registroSus.getFiltroAreaMunicipio()), 
 											          converterDataNotificacaoSusParaSivep(registroSus.getDataNotificacao()), registroSus.getSexo(), registroSus.getIdade(), 
 											          registroSus.getRacaCor(), registroSus.getTipoTeste(), registroSus.getResultadoTeste(), 
-											          "", "esus", "UTI", "54-67", registroSus.getSexoRedome(), registroSus.getEtniaRedome()));
+											          "", "esus", "UTI", "54-67", normalizarSexo(registroSus.getSexoRedome()), registroSus.getEtniaRedome()));
 		}
 		
 	}
@@ -184,25 +184,25 @@ public class GerarCSVPareamento {
 		for (SivepRedomeCSV registroSivep : registrosSivepFaixa1) {
 			registrosPareamento.add(new PareamentoCSV(registroSivep.getId(), registroSivep.getIdentificacao(), registroSivep.getNomeCompleto(), 
 													  "", normalizarString(registroSivep.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSivep.getMunicipio())), "", 
-													  registroSivep.getDataNotificacao(), converterSexoSivepParaSus(converterSexoSivepParaSus(registroSivep.getSexo())), registroSivep.getIdade(), 
+													  registroSivep.getDataNotificacao(), normalizarSexo(registroSivep.getSexo()), registroSivep.getIdade(), 
 													  registroSivep.getRacaCor(), "", registroSivep.getResultadoTeste(), 
-													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "25-44", registroSivep.getSexoRedome(), registroSivep.getEtniaRedome()));
+													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "25-44", normalizarSexo(registroSivep.getSexoRedome()), registroSivep.getEtniaRedome()));
 		}
 		
 		for (SivepRedomeCSV registroSivep : registrosSivepFaixa2) {
 			registrosPareamento.add(new PareamentoCSV(registroSivep.getId(), registroSivep.getIdentificacao(), registroSivep.getNomeCompleto(), 
 													  "", normalizarString(registroSivep.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSivep.getMunicipio())), "", 
-													  registroSivep.getDataNotificacao(), converterSexoSivepParaSus(converterSexoSivepParaSus(registroSivep.getSexo())), registroSivep.getIdade(), 
+													  registroSivep.getDataNotificacao(), normalizarSexo(registroSivep.getSexo()), registroSivep.getIdade(), 
 													  registroSivep.getRacaCor(), "", registroSivep.getResultadoTeste(), 
-													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "45-56", registroSivep.getSexoRedome(), registroSivep.getEtniaRedome()));
+													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "45-56", normalizarSexo(registroSivep.getSexoRedome()), registroSivep.getEtniaRedome()));
 		}
 		
 		for (SivepRedomeCSV registroSivep : registrosSivepFaixa3) {
 			registrosPareamento.add(new PareamentoCSV(registroSivep.getId(), registroSivep.getIdentificacao(), registroSivep.getNomeCompleto(), 
 													  "", normalizarString(registroSivep.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSivep.getMunicipio())), "", 
-													  registroSivep.getDataNotificacao(), converterSexoSivepParaSus(converterSexoSivepParaSus(registroSivep.getSexo())), registroSivep.getIdade(), 
+													  registroSivep.getDataNotificacao(), normalizarSexo(registroSivep.getSexo()), registroSivep.getIdade(), 
 													  registroSivep.getRacaCor(), "", registroSivep.getResultadoTeste(), 
-													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "57-81", registroSivep.getSexoRedome(), registroSivep.getEtniaRedome()));
+													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "57-81", normalizarSexo(registroSivep.getSexoRedome()), registroSivep.getEtniaRedome()));
 		}
 		
 		List<SusRedomeCSV> registrosSusFaixa1 = new ArrayList<>();
@@ -214,7 +214,7 @@ public class GerarCSVPareamento {
 											          registroSus.getCpf(), normalizarString(registroSus.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSus.getMunicipio())), normalizarString(registroSus.getFiltroAreaMunicipio()), 
 											          converterDataNotificacaoSusParaSivep(registroSus.getDataNotificacao()), registroSus.getSexo(), registroSus.getIdade(), 
 											          registroSus.getRacaCor(), registroSus.getTipoTeste(), registroSus.getResultadoTeste(), 
-											          "", "esus", "INTERNADO", "25-44", registroSus.getSexoRedome(), registroSus.getEtniaRedome()));
+											          "", "esus", "INTERNADO", "25-44", normalizarSexo(registroSus.getSexoRedome()), registroSus.getEtniaRedome()));
 		}
 		
 		List<SusRedomeCSV> registrosSusFaixa2 = new ArrayList<>();
@@ -226,7 +226,7 @@ public class GerarCSVPareamento {
 											          registroSus.getCpf(), normalizarString(registroSus.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSus.getMunicipio())), normalizarString(registroSus.getFiltroAreaMunicipio()), 
 											          converterDataNotificacaoSusParaSivep(registroSus.getDataNotificacao()), registroSus.getSexo(), registroSus.getIdade(), 
 											          registroSus.getRacaCor(), registroSus.getTipoTeste(), registroSus.getResultadoTeste(), 
-											          "", "esus", "INTERNADO", "45-56", registroSus.getSexoRedome(), registroSus.getEtniaRedome()));
+											          "", "esus", "INTERNADO", "45-56", normalizarSexo(registroSus.getSexoRedome()), registroSus.getEtniaRedome()));
 		}
 		
 		List<SusRedomeCSV> registrosSusFaixa3 = new ArrayList<>();
@@ -238,7 +238,7 @@ public class GerarCSVPareamento {
 											          registroSus.getCpf(), normalizarString(registroSus.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSus.getMunicipio())), normalizarString(registroSus.getFiltroAreaMunicipio()), 
 											          converterDataNotificacaoSusParaSivep(registroSus.getDataNotificacao()), registroSus.getSexo(), registroSus.getIdade(), 
 											          registroSus.getRacaCor(), registroSus.getTipoTeste(), registroSus.getResultadoTeste(), 
-											          "", "esus", "INTERNADO", "57-81", registroSus.getSexoRedome(), registroSus.getEtniaRedome()));
+											          "", "esus", "INTERNADO", "57-81", normalizarSexo(registroSus.getSexoRedome()), registroSus.getEtniaRedome()));
 		}
 		
 	}
@@ -251,25 +251,25 @@ public class GerarCSVPareamento {
 		for (SivepRedomeCSV registroSivep : registrosSivepFaixa1) {
 			registrosPareamento.add(new PareamentoCSV(registroSivep.getId(), registroSivep.getIdentificacao(), registroSivep.getNomeCompleto(), 
 													  "", normalizarString(registroSivep.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSivep.getMunicipio())), "", 
-													  registroSivep.getDataNotificacao(), converterSexoSivepParaSus(converterSexoSivepParaSus(registroSivep.getSexo())), registroSivep.getIdade(), 
+													  registroSivep.getDataNotificacao(), normalizarSexo(registroSivep.getSexo()), registroSivep.getIdade(), 
 													  registroSivep.getRacaCor(), "", registroSivep.getResultadoTeste(), 
-													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "22-42", registroSivep.getSexoRedome(), registroSivep.getEtniaRedome()));
+													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "22-42", normalizarSexo(registroSivep.getSexoRedome()), registroSivep.getEtniaRedome()));
 		}
 		
 		for (SivepRedomeCSV registroSivep : registrosSivepFaixa2) {
 			registrosPareamento.add(new PareamentoCSV(registroSivep.getId(), registroSivep.getIdentificacao(), registroSivep.getNomeCompleto(), 
 													  "", normalizarString(registroSivep.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSivep.getMunicipio())), "", 
-													  registroSivep.getDataNotificacao(), converterSexoSivepParaSus(registroSivep.getSexo()), registroSivep.getIdade(), 
+													  registroSivep.getDataNotificacao(), normalizarSexo(registroSivep.getSexo()), registroSivep.getIdade(), 
 													  registroSivep.getRacaCor(), "", registroSivep.getResultadoTeste(), 
-													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "43-53", registroSivep.getSexoRedome(), registroSivep.getEtniaRedome()));
+													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "43-53", normalizarSexo(registroSivep.getSexoRedome()), registroSivep.getEtniaRedome()));
 		}
 		
 		for (SivepRedomeCSV registroSivep : registrosSivepFaixa3) {
 			registrosPareamento.add(new PareamentoCSV(registroSivep.getId(), registroSivep.getIdentificacao(), registroSivep.getNomeCompleto(), 
 													  "", normalizarString(registroSivep.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSivep.getMunicipio())), "", 
-													  registroSivep.getDataNotificacao(), converterSexoSivepParaSus(registroSivep.getSexo()), registroSivep.getIdade(), 
+													  registroSivep.getDataNotificacao(), normalizarSexo(registroSivep.getSexo()), registroSivep.getIdade(), 
 													  registroSivep.getRacaCor(), "", registroSivep.getResultadoTeste(), 
-													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "54-74", registroSivep.getSexoRedome(), registroSivep.getEtniaRedome()));
+													  registroSivep.getEvolucaoCaso(), "sivep", registroSivep.getEvolucaoCaso(), "54-74", normalizarSexo(registroSivep.getSexoRedome()), registroSivep.getEtniaRedome()));
 		}
 		
 		List<SusRedomeCSV> registrosSusFaixa1 = new ArrayList<>();
@@ -281,7 +281,7 @@ public class GerarCSVPareamento {
 											          registroSus.getCpf(), normalizarString(normalizarString(registroSus.getMunicipio())), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSus.getMunicipio())), normalizarString(registroSus.getFiltroAreaMunicipio()), 
 											          converterDataNotificacaoSusParaSivep(registroSus.getDataNotificacao()), registroSus.getSexo(), registroSus.getIdade(), 
 											          registroSus.getRacaCor(), registroSus.getTipoTeste(), registroSus.getResultadoTeste(), 
-											          "", "esus", "RECUPERADO", "22-42", registroSus.getSexoRedome(), registroSus.getEtniaRedome()));
+											          "", "esus", "RECUPERADO", "22-42", normalizarSexo(registroSus.getSexoRedome()), registroSus.getEtniaRedome()));
 		}
 		
 		List<SusRedomeCSV> registrosSusFaixa2 = new ArrayList<>();
@@ -293,7 +293,7 @@ public class GerarCSVPareamento {
 											          registroSus.getCpf(), normalizarString(registroSus.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSus.getMunicipio())), normalizarString(registroSus.getFiltroAreaMunicipio()), 
 											          converterDataNotificacaoSusParaSivep(registroSus.getDataNotificacao()), registroSus.getSexo(), registroSus.getIdade(), 
 											          registroSus.getRacaCor(), registroSus.getTipoTeste(), registroSus.getResultadoTeste(), 
-											          "", "esus", "RECUPERADO", "43-53", registroSus.getSexoRedome(), registroSus.getEtniaRedome()));
+											          "", "esus", "RECUPERADO", "43-53", normalizarSexo(registroSus.getSexoRedome()), registroSus.getEtniaRedome()));
 		}
 		
 		List<SusRedomeCSV> registrosSusFaixa3 = new ArrayList<>();
@@ -305,7 +305,7 @@ public class GerarCSVPareamento {
 											          registroSus.getCpf(), normalizarString(registroSus.getMunicipio()), normalizarString(RegioesAdministrativas.obterNomeRegiaoMunicipio(registroSus.getMunicipio())), normalizarString(registroSus.getFiltroAreaMunicipio()), 
 											          converterDataNotificacaoSusParaSivep(registroSus.getDataNotificacao()), registroSus.getSexo(), registroSus.getIdade(), 
 											          registroSus.getRacaCor(), registroSus.getTipoTeste(), registroSus.getResultadoTeste(), 
-											          "", "esus", "RECUPERADO", "54-74", registroSus.getSexoRedome(), registroSus.getEtniaRedome()));
+											          "", "esus", "RECUPERADO", "54-74", normalizarSexo(registroSus.getSexoRedome()), registroSus.getEtniaRedome()));
 		}
 		
 	}

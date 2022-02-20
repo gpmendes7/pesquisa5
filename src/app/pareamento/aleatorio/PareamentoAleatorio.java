@@ -101,35 +101,31 @@ public class PareamentoAleatorio {
 			fileWriter.write("Resultados finais após filtragem " + (filtragem - 1) + "\n");
 
 			if (registrosSusFiltradosRegistroSivepComResultadoPositivo.size() < NUMERO_POSITIVO_NEGATIVOS
-					|| registrosSusFiltradosRegistroSivepComResultadoNegativo.size() < NUMERO_POSITIVO_NEGATIVOS) {
+			    || registrosSusFiltradosRegistroSivepComResultadoNegativo.size() < NUMERO_POSITIVO_NEGATIVOS) {
 				fileWriter.write("Número de registros do sus com resultado Positivo e Negativo insuficientes! Registro "
-						+ registro + " não será usado!\n");
-				fileWriter.write(
-						"Registros do sus filtrados usados vão ser desmarcados para uso posterior para filtro de outro registro sivep!\n");
+						         + registro + " não será usado!\n");
+				fileWriter.write("Registros do sus filtrados usados vão ser desmarcados para uso posterior "
+						         + "para filtro de outro registro sivep!\n");
 
-				registrosSusAtualizado.removeAll(registrosSusFiltradosRegistroSivepComResultadoPositivo);
+				//registrosSusAtualizado.removeAll(registrosSusFiltradosRegistroSivepComResultadoPositivo);
 				registrosSusFiltradosRegistroSivepComResultadoPositivo.stream().forEach(r -> r.setObservacaoUso(""));
-				registrosSusFiltradosRegistroSivepComResultadoPositivo.stream()
-						.forEach(r -> r.setFiltroAreaMunicipio(""));
-				registrosSusAtualizado.addAll(registrosSusFiltradosRegistroSivepComResultadoPositivo);
+				registrosSusFiltradosRegistroSivepComResultadoPositivo.stream().forEach(r -> r.setFiltroAreaMunicipio(""));
+				//registrosSusAtualizado.addAll(registrosSusFiltradosRegistroSivepComResultadoPositivo);
 
-				registrosSusAtualizado.removeAll(registrosSusFiltradosRegistroSivepComResultadoNegativo);
+				//registrosSusAtualizado.removeAll(registrosSusFiltradosRegistroSivepComResultadoNegativo);
 				registrosSusFiltradosRegistroSivepComResultadoNegativo.stream().forEach(r -> r.setObservacaoUso(""));
-				registrosSusFiltradosRegistroSivepComResultadoNegativo.stream()
-						.forEach(r -> r.setFiltroAreaMunicipio(""));
-				registrosSusAtualizado.addAll(registrosSusFiltradosRegistroSivepComResultadoNegativo);
+				registrosSusFiltradosRegistroSivepComResultadoNegativo.stream().forEach(r -> r.setFiltroAreaMunicipio(""));
+				//registrosSusAtualizado.addAll(registrosSusFiltradosRegistroSivepComResultadoNegativo);
 
 				registrosSivepNaoUsados.add(registroSivepFiltrado);
 			} else {
 				fileWriter.write("Número final de registros do sus usados com resultado Positivo: "
-						+ registrosSusFiltradosRegistroSivepComResultadoPositivo.size() + "\n");
+						         + registrosSusFiltradosRegistroSivepComResultadoPositivo.size() + "\n");
 				fileWriter.write("Número final de registros do sus usados com resultado Negativo: "
-						+ registrosSusFiltradosRegistroSivepComResultadoNegativo.size() + "\n");
+						         + registrosSusFiltradosRegistroSivepComResultadoNegativo.size() + "\n");
 
-				registrosSusTotaisFiltradosComResultadoPositivo
-						.addAll(registrosSusFiltradosRegistroSivepComResultadoPositivo);
-				registrosSusTotaisFiltradosComResultadoNegativo
-						.addAll(registrosSusFiltradosRegistroSivepComResultadoNegativo);
+				registrosSusTotaisFiltradosComResultadoPositivo.addAll(registrosSusFiltradosRegistroSivepComResultadoPositivo);
+				registrosSusTotaisFiltradosComResultadoNegativo.addAll(registrosSusFiltradosRegistroSivepComResultadoNegativo);
 			}
 
 			fileWriter.write("***************************\n");
@@ -204,7 +200,7 @@ public class PareamentoAleatorio {
 		List<SusRedomeCSV> registrosSusFiltradosComResultadoPositivo = filtrarRegistrosSusPorResultado(
 				registrosSusFiltradosRegistroSivep, "Positivo");
 		fileWriter.write("Filtrou " + registrosSusFiltradosComResultadoPositivo.size()
-				+ " registros do sus com resultado Positivo\n");
+				         + " registros do sus com resultado Positivo\n");
 
 		//registrosSusAtualizado.removeAll(registrosSusFiltradosComResultadoPositivo);
 		
