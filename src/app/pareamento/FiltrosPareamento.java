@@ -52,7 +52,7 @@ public class FiltrosPareamento {
 		String sexoSus = normalizarSexo(registroSivepFiltrado.getSexo());
 		
 		return registrosSus.stream()
-						   .filter(r -> StringUtil.normalizarString(r.getSexo()).equals(StringUtil.normalizarString(sexoSus)))
+						   .filter(r -> normalizarString(r.getSexo()).equals(StringUtil.normalizarString(sexoSus)))
 						   .collect(Collectors.toList());		
 	}
 	
