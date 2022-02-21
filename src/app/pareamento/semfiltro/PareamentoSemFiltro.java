@@ -1,7 +1,6 @@
 package app.pareamento.semfiltro;
 
 import static app.pareamento.FiltrosPareamento.filtrarRegistrosSivepPorFaixaEtaria;
-import static app.pareamento.FiltrosPareamento.filtrarRegistrosSivepPorResultadoPositivo;
 import static app.pareamento.FiltrosPareamento.filtrarRegistrosSusNaoUsados;
 import static app.pareamento.FiltrosPareamento.filtrarRegistrosSusPorResultado;
 
@@ -58,8 +57,6 @@ public class PareamentoSemFiltro {
 			throws CsvDataTypeMismatchException, CsvRequiredFieldEmptyException, IOException, ParseException {
 		List<SivepRedomeCSV> registrosSivepFiltrados = filtrarRegistrosSivepPorFaixaEtaria(registrosSivep, idadeMinima, idadeMaxima);
 
-		registrosSivepFiltrados = filtrarRegistrosSivepPorResultadoPositivo(registrosSivepFiltrados);
-		
 		List<SusRedomeCSV> registrosSusTotaisFiltradosComResultadoPositivo = new ArrayList<>();
 		List<SusRedomeCSV> registrosSusTotaisFiltradosComResultadoNegativo = new ArrayList<>();
 
