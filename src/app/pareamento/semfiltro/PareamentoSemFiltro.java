@@ -91,10 +91,10 @@ public class PareamentoSemFiltro {
 			List<SusRedomeCSV> registrosSusFiltradosRegistroSivep = filtrarRegistrosSusNaoUsados(registrosSusAtualizado);
 
 			registrosSusFiltradosRegistroSivepComResultadoPositivo.addAll(
-					obterRegistrosUsadosComResultadoPositivo(registrosSusFiltradosRegistroSivep, NUMERO_POSITIVO_NEGATIVOS));
+					obterRegistrosSusUsadosComResultadoPositivo(registrosSusFiltradosRegistroSivep, NUMERO_POSITIVO_NEGATIVOS));
 			
 			registrosSusFiltradosRegistroSivepComResultadoNegativo.addAll(
-					obterRegistrosUsadosComResultadoNegativo(registrosSusFiltradosRegistroSivep, NUMERO_POSITIVO_NEGATIVOS));
+					obterRegistrosSusUsadosComResultadoNegativo(registrosSusFiltradosRegistroSivep, NUMERO_POSITIVO_NEGATIVOS));
 			
 			fileWriter.write("---------------------------\n");
 			fileWriter.write("Resultados finais após filtragem " + (filtragem - 1) + "\n");
@@ -106,17 +106,13 @@ public class PareamentoSemFiltro {
 				fileWriter.write(
 						"Registros do sus filtrados usados vão ser desmarcados para uso posterior para filtro de outro registro sivep!\n");
 
-				registrosSusAtualizado.removeAll(registrosSusFiltradosRegistroSivepComResultadoPositivo);
 				registrosSusFiltradosRegistroSivepComResultadoPositivo.stream().forEach(r -> r.setObservacaoUso(""));
 				registrosSusFiltradosRegistroSivepComResultadoPositivo.stream()
 						.forEach(r -> r.setFiltroAreaMunicipio(""));
-				registrosSusAtualizado.addAll(registrosSusFiltradosRegistroSivepComResultadoPositivo);
 
-				registrosSusAtualizado.removeAll(registrosSusFiltradosRegistroSivepComResultadoNegativo);
 				registrosSusFiltradosRegistroSivepComResultadoNegativo.stream().forEach(r -> r.setObservacaoUso(""));
 				registrosSusFiltradosRegistroSivepComResultadoNegativo.stream()
 						.forEach(r -> r.setFiltroAreaMunicipio(""));
-				registrosSusAtualizado.addAll(registrosSusFiltradosRegistroSivepComResultadoNegativo);
 
 				registrosSivepNaoUsados.add(registroSivepFiltrado);
 			} else {
@@ -156,59 +152,51 @@ public class PareamentoSemFiltro {
 
 		registrosSivepFiltrados.add(0,
 				new SivepRedomeCSV("identificacao", "nomeCompleto", "dataNascimento", "idade", "municipio",
-						"id", "sexo", "racaCor", "dataInternacao", "dataInternacaoRedome", "dataEncerramento",
-						"dataEncerramentoRedome", "evolucaoCaso", "evolucaoCasoRedome", "dataNotificacao",
-						"resultadoTeste", "sexoRedome", "etniaRedome"));
+								   "id", "sexo", "racaCor", "dataInternacao", "dataInternacaoRedome", "dataEncerramento",
+								   "dataEncerramentoRedome", "evolucaoCaso", "evolucaoCasoRedome", "dataNotificacao",
+								   "resultadoTeste", "sexoRedome", "etniaRedome"));
 
 		SivepRedomeCSVHandler.criarCSV(csvSivepUsados, registrosSivepFiltrados);
 
 		registrosSivepNaoUsados.add(0,
 				new SivepRedomeCSV("identificacao", "nomeCompleto", "dataNascimento", "idade", "municipio",
-						"id", "sexo", "racaCor", "dataInternacao", "dataInternacaoRedome", "dataEncerramento",
-						"dataEncerramentoRedome", "evolucaoCaso", "evolucaoCasoRedome", "dataNotificacao",
-						"resultadoTeste", "sexoRedome", "etniaRedome"));
+								   "id", "sexo", "racaCor", "dataInternacao", "dataInternacaoRedome", "dataEncerramento",
+								   "dataEncerramentoRedome", "evolucaoCaso", "evolucaoCasoRedome", "dataNotificacao",
+								   "resultadoTeste", "sexoRedome", "etniaRedome"));
 
 		SivepRedomeCSVHandler.criarCSV(csvSivepNaoUsados, registrosSivepNaoUsados);
 	}
 
-	private List<SusRedomeCSV> obterRegistrosUsadosComResultadoNegativo(List<SusRedomeCSV> registrosSusFiltradosRegistroSivep, int qtd)
+	private List<SusRedomeCSV> obterRegistrosSusUsadosComResultadoNegativo(List<SusRedomeCSV> registrosSusFiltradosRegistroSivep, int qtd)
 			throws CsvDataTypeMismatchException, CsvRequiredFieldEmptyException, IOException {
 		List<SusRedomeCSV> registrosSusFiltradosComResultadoNegativo = filtrarRegistrosSusPorResultado(
 				registrosSusFiltradosRegistroSivep, "Negativo");
 		fileWriter.write("Filtrou " + registrosSusFiltradosComResultadoNegativo.size()
 				+ " registros do sus com resultado Negativo\n");
 
-		registrosSusAtualizado.removeAll(registrosSusFiltradosComResultadoNegativo);
-
 		registrosSusFiltradosComResultadoNegativo.stream().limit(qtd)
 				.forEach(r -> r.setObservacaoUso("Registro usado por " + situacao));
-
-		registrosSusAtualizado.addAll(registrosSusFiltradosComResultadoNegativo);
 
 		List<SusRedomeCSV> registrosSusFiltradosComResultadoNegativoUsados = registrosSusFiltradosComResultadoNegativo
 				.stream().filter(r -> r.getObservacaoUso() != null && !r.getObservacaoUso().equals(""))
 				.collect(Collectors.toList());
 		if (registrosSusFiltradosComResultadoNegativoUsados.size() > 0) {
 			fileWriter.write("Foram usados " + registrosSusFiltradosComResultadoNegativoUsados.size()
-					+ " registros do sus com resultado Negativo\n");
+					         + " registros do sus com resultado Negativo\n");
 		}
 
 		return registrosSusFiltradosComResultadoNegativoUsados;
 	}
 
-	private List<SusRedomeCSV> obterRegistrosUsadosComResultadoPositivo(List<SusRedomeCSV> registrosSusFiltradosRegistroSivep, int qtd) 
+	private List<SusRedomeCSV> obterRegistrosSusUsadosComResultadoPositivo(List<SusRedomeCSV> registrosSusFiltradosRegistroSivep, int qtd) 
 			throws CsvDataTypeMismatchException, CsvRequiredFieldEmptyException, IOException {
 		List<SusRedomeCSV> registrosSusFiltradosComResultadoPositivo = filtrarRegistrosSusPorResultado(
 				registrosSusFiltradosRegistroSivep, "Positivo");
 		fileWriter.write("Filtrou " + registrosSusFiltradosComResultadoPositivo.size()
 				+ " registros do sus com resultado Positivo\n");
 
-		registrosSusAtualizado.removeAll(registrosSusFiltradosComResultadoPositivo);
-
 		registrosSusFiltradosComResultadoPositivo.stream().limit(qtd)
 				.forEach(r -> r.setObservacaoUso("Registro usado por " + situacao));
-
-		registrosSusAtualizado.addAll(registrosSusFiltradosComResultadoPositivo);
 
 		List<SusRedomeCSV> registrosSusFiltradosComResultadoPositivoUsados = registrosSusFiltradosComResultadoPositivo
 				.stream().filter(r -> r.getObservacaoUso() != null && !r.getObservacaoUso().equals(""))

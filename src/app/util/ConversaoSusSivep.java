@@ -7,10 +7,10 @@ import static app.util.StringUtil.normalizarString;
 
 public class ConversaoSusSivep {
 	
-	public static String normalizarSexo(String sexoSivep) {
-		if(normalizarString(sexoSivep).equals("F")) {
+	public static String normalizarSexo(String sexo) {
+		if(normalizarString(sexo).equals("F")) {
 			return "Feminino";
-		} else if(normalizarString(sexoSivep).equals("M")) {
+		} else if(normalizarString(sexo).equals("M")) {
 			return "Masculino";
 		} else {
 			return null;

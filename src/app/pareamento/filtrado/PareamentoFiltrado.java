@@ -167,13 +167,13 @@ public class PareamentoFiltrado {
 				if (registrosSusFiltradosRegistroSivepComResultadoPositivo.size() < NUMERO_POSITIVO_NEGATIVOS) {
 					qtdRegistros = NUMERO_POSITIVO_NEGATIVOS - registrosSusFiltradosRegistroSivepComResultadoPositivo.size();
 					registrosSusFiltradosRegistroSivepComResultadoPositivo.addAll(
-							obterRegistrosUsadosComResultadoPositivo(registrosSusFiltradosRegistroSivep, qtdRegistros));
+							obterRegistrosSusUsadosComResultadoPositivo(registrosSusFiltradosRegistroSivep, qtdRegistros));
 				}
 
 				if (registrosSusFiltradosRegistroSivepComResultadoNegativo.size() < NUMERO_POSITIVO_NEGATIVOS) {
 					qtdRegistros = NUMERO_POSITIVO_NEGATIVOS - registrosSusFiltradosRegistroSivepComResultadoNegativo.size();
 					registrosSusFiltradosRegistroSivepComResultadoNegativo.addAll(
-							obterRegistrosUsadosComResultadoNegativo(registrosSusFiltradosRegistroSivep, qtdRegistros));
+							obterRegistrosSusUsadosComResultadoNegativo(registrosSusFiltradosRegistroSivep, qtdRegistros));
 				}
 
 				fileWriter.write("Número atual de registros do sus usados com resultado Positivo após filtragem "
@@ -203,17 +203,13 @@ public class PareamentoFiltrado {
 				fileWriter.write(
 						"Registros do sus filtrados usados vão ser desmarcados para uso posterior para filtro de outro registro sivep!\n");
 
-				registrosSusAtualizado.removeAll(registrosSusFiltradosRegistroSivepComResultadoPositivo);
 				registrosSusFiltradosRegistroSivepComResultadoPositivo.stream().forEach(r -> r.setObservacaoUso(""));
 				registrosSusFiltradosRegistroSivepComResultadoPositivo.stream()
 						.forEach(r -> r.setFiltroAreaMunicipio(""));
-				registrosSusAtualizado.addAll(registrosSusFiltradosRegistroSivepComResultadoPositivo);
 
-				registrosSusAtualizado.removeAll(registrosSusFiltradosRegistroSivepComResultadoNegativo);
 				registrosSusFiltradosRegistroSivepComResultadoNegativo.stream().forEach(r -> r.setObservacaoUso(""));
 				registrosSusFiltradosRegistroSivepComResultadoNegativo.stream()
 						.forEach(r -> r.setFiltroAreaMunicipio(""));
-				registrosSusAtualizado.addAll(registrosSusFiltradosRegistroSivepComResultadoNegativo);
 
 				registrosSivepNaoUsados.add(registroSivepFiltrado);
 			} else {
@@ -268,19 +264,15 @@ public class PareamentoFiltrado {
 		SivepRedomeCSVHandler.criarCSV(csvSivepNaoUsados, registrosSivepNaoUsados);
 	}
 
-	private List<SusRedomeCSV> obterRegistrosUsadosComResultadoNegativo(List<SusRedomeCSV> registrosSusFiltradosRegistroSivep, int qtd)
+	private List<SusRedomeCSV> obterRegistrosSusUsadosComResultadoNegativo(List<SusRedomeCSV> registrosSusFiltradosRegistroSivep, int qtd)
 			throws CsvDataTypeMismatchException, CsvRequiredFieldEmptyException, IOException {
 		List<SusRedomeCSV> registrosSusFiltradosComResultadoNegativo = filtrarRegistrosSusPorResultado(
 				registrosSusFiltradosRegistroSivep, "Negativo");
 		fileWriter.write("Filtrou " + registrosSusFiltradosComResultadoNegativo.size()
 				+ " registros do sus com resultado Negativo\n");
 
-		registrosSusAtualizado.removeAll(registrosSusFiltradosComResultadoNegativo);
-
 		registrosSusFiltradosComResultadoNegativo.stream().limit(qtd)
 				.forEach(r -> r.setObservacaoUso("Registro usado por " + situacao));
-
-		registrosSusAtualizado.addAll(registrosSusFiltradosComResultadoNegativo);
 
 		List<SusRedomeCSV> registrosSusFiltradosComResultadoNegativoUsados = registrosSusFiltradosComResultadoNegativo
 				.stream().filter(r -> r.getObservacaoUso() != null && !r.getObservacaoUso().equals(""))
@@ -293,19 +285,15 @@ public class PareamentoFiltrado {
 		return registrosSusFiltradosComResultadoNegativoUsados;
 	}
 
-	private List<SusRedomeCSV> obterRegistrosUsadosComResultadoPositivo(List<SusRedomeCSV> registrosSusFiltradosRegistroSivep, int qtd) 
+	private List<SusRedomeCSV> obterRegistrosSusUsadosComResultadoPositivo(List<SusRedomeCSV> registrosSusFiltradosRegistroSivep, int qtd) 
 			throws CsvDataTypeMismatchException, CsvRequiredFieldEmptyException, IOException {
 		List<SusRedomeCSV> registrosSusFiltradosComResultadoPositivo = filtrarRegistrosSusPorResultado(
 				registrosSusFiltradosRegistroSivep, "Positivo");
 		fileWriter.write("Filtrou " + registrosSusFiltradosComResultadoPositivo.size()
 				+ " registros do sus com resultado Positivo\n");
 
-		registrosSusAtualizado.removeAll(registrosSusFiltradosComResultadoPositivo);
-
 		registrosSusFiltradosComResultadoPositivo.stream().limit(qtd)
 				.forEach(r -> r.setObservacaoUso("Registro usado por " + situacao));
-
-		registrosSusAtualizado.addAll(registrosSusFiltradosComResultadoPositivo);
 
 		List<SusRedomeCSV> registrosSusFiltradosComResultadoPositivoUsados = registrosSusFiltradosComResultadoPositivo
 				.stream().filter(r -> r.getObservacaoUso() != null && !r.getObservacaoUso().equals(""))

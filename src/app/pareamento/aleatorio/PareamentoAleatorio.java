@@ -25,7 +25,7 @@ import csv.SusRedomeCSVHandler2;
 
 public class PareamentoAleatorio {
 
-	private final static int NUMERO_POSITIVO_NEGATIVOS = 2; 
+	private final static int NUMERO_POSITIVO_NEGATIVOS = 3; 
 
 	private List<SivepRedomeCSV> registrosSivep;
 	private List<SusRedomeCSV> registrosSus;
@@ -107,15 +107,11 @@ public class PareamentoAleatorio {
 				fileWriter.write("Registros do sus filtrados usados vão ser desmarcados para uso posterior "
 						         + "para filtro de outro registro sivep!\n");
 
-				//registrosSusAtualizado.removeAll(registrosSusFiltradosRegistroSivepComResultadoPositivo);
 				registrosSusFiltradosRegistroSivepComResultadoPositivo.stream().forEach(r -> r.setObservacaoUso(""));
 				registrosSusFiltradosRegistroSivepComResultadoPositivo.stream().forEach(r -> r.setFiltroAreaMunicipio(""));
-				//registrosSusAtualizado.addAll(registrosSusFiltradosRegistroSivepComResultadoPositivo);
 
-				//registrosSusAtualizado.removeAll(registrosSusFiltradosRegistroSivepComResultadoNegativo);
 				registrosSusFiltradosRegistroSivepComResultadoNegativo.stream().forEach(r -> r.setObservacaoUso(""));
 				registrosSusFiltradosRegistroSivepComResultadoNegativo.stream().forEach(r -> r.setFiltroAreaMunicipio(""));
-				//registrosSusAtualizado.addAll(registrosSusFiltradosRegistroSivepComResultadoNegativo);
 
 				registrosSivepNaoUsados.add(registroSivepFiltrado);
 			} else {
@@ -174,15 +170,8 @@ public class PareamentoAleatorio {
 				registrosSusFiltradosRegistroSivep, "Negativo");
 		fileWriter.write("Filtrou " + registrosSusFiltradosComResultadoNegativo.size()
 				+ " registros do sus com resultado Negativo\n");
-
-		//registrosSusAtualizado.removeAll(registrosSusFiltradosComResultadoNegativo);
 		
 		selecionarRegistrosSusAleatoriamente(registrosSusFiltradosComResultadoNegativo, qtd);
-
-		//registrosSusFiltradosComResultadoNegativo.stream().limit(qtd)
-		//		.forEach(r -> r.setObservacaoUso("Registro usado por " + situacao));
-
-		//registrosSusAtualizado.addAll(registrosSusFiltradosComResultadoNegativo);
 
 		List<SusRedomeCSV> registrosSusFiltradosComResultadoNegativoUsados = registrosSusFiltradosComResultadoNegativo
 				.stream().filter(r -> r.getObservacaoUso() != null && !r.getObservacaoUso().equals(""))
@@ -201,16 +190,9 @@ public class PareamentoAleatorio {
 				registrosSusFiltradosRegistroSivep, "Positivo");
 		fileWriter.write("Filtrou " + registrosSusFiltradosComResultadoPositivo.size()
 				         + " registros do sus com resultado Positivo\n");
-
-		//registrosSusAtualizado.removeAll(registrosSusFiltradosComResultadoPositivo);
 		
 		selecionarRegistrosSusAleatoriamente(registrosSusFiltradosComResultadoPositivo, qtd);
 		
-		//registrosSusFiltradosComResultadoPositivo.stream().limit(qtd)
-		//		.forEach(r -> r.setObservacaoUso("Registro usado por " + situacao));
-
-		//registrosSusAtualizado.addAll(registrosSusFiltradosComResultadoPositivo);
-
 		List<SusRedomeCSV> registrosSusFiltradosComResultadoPositivoUsados = registrosSusFiltradosComResultadoPositivo
 				.stream().filter(r -> r.getObservacaoUso() != null && !r.getObservacaoUso().equals(""))
 				.collect(Collectors.toList());
