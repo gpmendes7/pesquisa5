@@ -31,7 +31,7 @@ import csv.SusRedomeCSVHandler2;
 
 public class PareamentoFiltrado {
 	
-	private final static int NUMERO_POSITIVO_NEGATIVOS = 2; 
+	private final static int NUMERO_POSITIVO_NEGATIVOS = 4; 
 
 	private List<SivepRedomeCSV> registrosSivep;
 	private List<SusRedomeCSV> registrosSus;
