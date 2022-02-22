@@ -97,7 +97,7 @@ public class PareamentoSemFiltro {
 					obterRegistrosSusUsadosComResultadoNegativo(registrosSusFiltradosRegistroSivep, NUMERO_POSITIVO_NEGATIVOS));
 			
 			fileWriter.write("---------------------------\n");
-			fileWriter.write("Resultados finais após filtragem " + (filtragem - 1) + "\n");
+			fileWriter.write("Resultados finais após filtragem " + filtragem + "\n");
 
 			if (registrosSusFiltradosRegistroSivepComResultadoPositivo.size() < NUMERO_POSITIVO_NEGATIVOS
 					|| registrosSusFiltradosRegistroSivepComResultadoNegativo.size() < NUMERO_POSITIVO_NEGATIVOS) {
