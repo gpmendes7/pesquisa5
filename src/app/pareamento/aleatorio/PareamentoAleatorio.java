@@ -2,7 +2,6 @@ package app.pareamento.aleatorio;
 
 import static app.pareamento.FiltrosPareamento.filtrarRegistrosSivepPorFaixaEtaria;
 import static app.pareamento.FiltrosPareamento.filtrarRegistrosSusNaoUsados;
-import static app.pareamento.FiltrosPareamento.filtrarRegistrosSusPorFaixaEtaria;
 import static app.pareamento.FiltrosPareamento.filtrarRegistrosSusPorResultado;
 
 import java.io.File;
@@ -25,7 +24,7 @@ import csv.SusRedomeCSVHandler2;
 
 public class PareamentoAleatorio {
 
-	private final static int NUMERO_POSITIVO_NEGATIVOS = 2; 
+	private final static int NUMERO_POSITIVO_NEGATIVOS = 4; 
 
 	private List<SivepRedomeCSV> registrosSivep;
 	private List<SusRedomeCSV> registrosSus;
@@ -89,8 +88,6 @@ public class PareamentoAleatorio {
 			
 			List<SusRedomeCSV> registrosSusFiltradosRegistroSivep = filtrarRegistrosSusNaoUsados(registrosSusAtualizado);
 			
-			registrosSusFiltradosRegistroSivep = filtrarRegistrosSusPorFaixaEtaria(registrosSusFiltradosRegistroSivep, idadeMinima, idadeMaxima);
-
 			registrosSusFiltradosRegistroSivepComResultadoPositivo.addAll(
 					obterRegistrosSusUsadosComResultadoPositivo(registrosSusFiltradosRegistroSivep, NUMERO_POSITIVO_NEGATIVOS));
 			
