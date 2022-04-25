@@ -30,7 +30,7 @@ public class SivepRedomeCSVHandler {
 				             "dataEncerramento", "dataEncerramentoRedome",
 				             "evolucaoCaso",  "evolucaoCasoRedome",
 				             "dataNotificacao", "resultadoTeste",
-				             "sexoRedome", "etniaRedome"};
+				             "sexoRedome", "etniaRedome", "semanaNotificacao"};
  
 		strategy.setColumnMapping(colunas);
 	}

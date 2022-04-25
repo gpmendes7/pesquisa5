@@ -20,6 +20,7 @@ public class SivepRedomeCSV {
 	private String resultadoTeste;
 	private String sexoRedome;
 	private String etniaRedome;
+	private String semanaNotificacao;
 	
 	public SivepRedomeCSV() {
 		
@@ -47,6 +48,31 @@ public class SivepRedomeCSV {
 		this.resultadoTeste = resultadoTeste;
 		this.sexoRedome = sexoRedome;
 		this.etniaRedome = etniaRedome;
+	}
+	
+	public SivepRedomeCSV(String identificacao, String nomeCompleto, String dataNascimento, String idade, String municipio,
+			String id, String sexo, String racaCor, String dataInternacao, String dataInternacaoRedome,
+			String dataEncerramento, String dataEncerramentoRedome, String evolucaoCaso, String evolucaoCasoRedome,
+			String dataNotificacao, String resultadoTeste, String sexoRedome, String etniaRedome, String semanaNotificacao) {
+		this.identificacao = identificacao;
+		this.nomeCompleto = nomeCompleto;
+		this.dataNascimento = dataNascimento;
+		this.idade = idade;
+		this.municipio = municipio;
+		this.id = id;
+		this.sexo = sexo;
+		this.racaCor = racaCor;
+		this.dataInternacao = dataInternacao;
+		this.dataInternacaoRedome = dataInternacaoRedome;
+		this.dataEncerramento = dataEncerramento;
+		this.dataEncerramentoRedome = dataEncerramentoRedome;
+		this.evolucaoCaso = evolucaoCaso;
+		this.evolucaoCasoRedome = evolucaoCasoRedome;
+		this.dataNotificacao = dataNotificacao;
+		this.resultadoTeste = resultadoTeste;
+		this.sexoRedome = sexoRedome;
+		this.etniaRedome = etniaRedome;
+		this.semanaNotificacao = semanaNotificacao;
 	}
 
 	public String getIdentificacao() {
@@ -191,6 +217,14 @@ public class SivepRedomeCSV {
 
 	public void setEtniaRedome(String etniaRedome) {
 		this.etniaRedome = etniaRedome;
+	}
+	
+	public String getSemanaNotificacao() {
+		return semanaNotificacao;
+	}
+	
+	public void setSemanaNotificacao(String semanaNotificacao) {
+		this.semanaNotificacao = semanaNotificacao;
 	}
 	
 }

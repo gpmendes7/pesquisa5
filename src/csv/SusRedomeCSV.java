@@ -24,6 +24,7 @@ public class SusRedomeCSV {
 	private String observacaoUso;
 	private String sexoRedome;
 	private String etniaRedome;
+	private String semanaNotificacao;
 	
 	public SusRedomeCSV() {
 	
@@ -56,15 +57,14 @@ public class SusRedomeCSV {
 		this.sexoRedome = sexoRedome;
 		this.etniaRedome = etniaRedome;
 	}
-
-	public SusRedomeCSV(String id, String municipio, String filtroAreaMunicipio, String nomeCompleto, String cpf, String dataNascimento,
-			String municipioNotificacao, String racaCor, String etnia, String nomeMae, String dataNotificacao,
-			String idade, String resultadoTeste, String dataTeste, String tipoTeste, String estadoTeste,
-			String evolucaoCaso, String observacaoExclusao, String sexo, String observacaoUso, String sexoRedome,
-			String etniaRedome) {
+	
+	public SusRedomeCSV(String id, String municipio, String nomeCompleto, String cpf,
+			String dataNascimento, String municipioNotificacao, String racaCor, String etnia, String nomeMae,
+			String dataNotificacao, String idade, String resultadoTeste, String dataTeste, String tipoTeste,
+			String estadoTeste, String evolucaoCaso, String observacaoExclusao, String sexo, String observacaoUso, String sexoRedome,
+			String etniaRedome, String semanaNotificacao) {
 		this.id = id;
 		this.municipio = municipio;
-		this.filtroAreaMunicipio = filtroAreaMunicipio;
 		this.nomeCompleto = nomeCompleto;
 		this.cpf = cpf;
 		this.dataNascimento = dataNascimento;
@@ -84,6 +84,7 @@ public class SusRedomeCSV {
 		this.observacaoUso = observacaoUso;
 		this.sexoRedome = sexoRedome;
 		this.etniaRedome = etniaRedome;
+		this.semanaNotificacao = semanaNotificacao;
 	}
 
 	public String getId() {
@@ -260,6 +261,14 @@ public class SusRedomeCSV {
 
 	public void setEtniaRedome(String etniaRedome) {
 		this.etniaRedome = etniaRedome;
+	}
+	
+	public String getSemanaNotificacao() {
+		return semanaNotificacao;
+	}
+	
+	public void setSemanaNotificacao(String semanaNotificacao) {
+		this.semanaNotificacao = semanaNotificacao;
 	}
 	
 }
