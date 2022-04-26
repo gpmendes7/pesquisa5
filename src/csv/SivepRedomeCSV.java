@@ -21,6 +21,8 @@ public class SivepRedomeCSV {
 	private String sexoRedome;
 	private String etniaRedome;
 	private String semanaNotificacao;
+	private String qtdPositivos;
+	private String qtdNegativos;
 	
 	public SivepRedomeCSV() {
 		
@@ -73,6 +75,34 @@ public class SivepRedomeCSV {
 		this.sexoRedome = sexoRedome;
 		this.etniaRedome = etniaRedome;
 		this.semanaNotificacao = semanaNotificacao;
+	}
+	
+	public SivepRedomeCSV(String identificacao, String nomeCompleto, String dataNascimento, String idade,
+			String municipio, String id, String sexo, String racaCor, String dataInternacao,
+			String dataInternacaoRedome, String dataEncerramento, String dataEncerramentoRedome, String evolucaoCaso,
+			String evolucaoCasoRedome, String dataNotificacao, String resultadoTeste, String sexoRedome,
+			String etniaRedome, String semanaNotificacao, String qtdPositivos, String qtdNegativos) {
+		this.identificacao = identificacao;
+		this.nomeCompleto = nomeCompleto;
+		this.dataNascimento = dataNascimento;
+		this.idade = idade;
+		this.municipio = municipio;
+		this.id = id;
+		this.sexo = sexo;
+		this.racaCor = racaCor;
+		this.dataInternacao = dataInternacao;
+		this.dataInternacaoRedome = dataInternacaoRedome;
+		this.dataEncerramento = dataEncerramento;
+		this.dataEncerramentoRedome = dataEncerramentoRedome;
+		this.evolucaoCaso = evolucaoCaso;
+		this.evolucaoCasoRedome = evolucaoCasoRedome;
+		this.dataNotificacao = dataNotificacao;
+		this.resultadoTeste = resultadoTeste;
+		this.sexoRedome = sexoRedome;
+		this.etniaRedome = etniaRedome;
+		this.semanaNotificacao = semanaNotificacao;
+		this.qtdPositivos = qtdPositivos;
+		this.qtdNegativos = qtdNegativos;
 	}
 
 	public String getIdentificacao() {
@@ -227,4 +257,20 @@ public class SivepRedomeCSV {
 		this.semanaNotificacao = semanaNotificacao;
 	}
 	
+	public void setQtdPositivos(String qtdPositivos) {
+		this.qtdPositivos = qtdPositivos;
+	}
+	
+	public String getQtdPositivos() {
+		return qtdPositivos;
+	}
+	
+	public void setQtdNegativos(String qtdNegativos) {
+		this.qtdNegativos = qtdNegativos;
+	}
+	
+	public String getQtdNegativos() {
+		return qtdNegativos;
+	}
+
 }
