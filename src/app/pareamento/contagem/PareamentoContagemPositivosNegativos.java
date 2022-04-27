@@ -13,6 +13,7 @@ import static app.pareamento.FiltrosPareamento.filtrarRegistrosSusPorTipoTesteCo
 import java.io.IOException;
 import java.text.ParseException;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 import com.opencsv.exceptions.CsvDataTypeMismatchException;
@@ -36,6 +37,20 @@ public class PareamentoContagemPositivosNegativos {
 	}
 	
 	public void gerarArquivoCSVOrdenado(String csvSivepOrdenado) throws CsvDataTypeMismatchException, CsvRequiredFieldEmptyException, IOException {
+		registrosSivepOrdenado.sort((r1, r2) -> {
+			Integer qtdNeg1 = Integer.parseInt(r1.getQtdNegativos());
+			Integer qtdNeg2 = Integer.parseInt(r2.getQtdNegativos());
+			
+			Integer qtdPos1 = Integer.parseInt(r1.getQtdPositivos());
+			Integer qtdPos2 = Integer.parseInt(r2.getQtdPositivos());
+			
+	        if (qtdNeg1.compareTo(qtdNeg2) == 0) {
+	            return qtdPos1.compareTo(qtdPos2);
+	        } else {
+	            return qtdNeg1.compareTo(qtdNeg2);
+	        } 
+	    });
+		
 		registrosSivepOrdenado.add(0,
 				new SivepRedomeCSV("identificacao", "nomeCompleto", "dataNascimento", "idade", "municipio",
 						"id", "sexo", "racaCor", "dataInternacao", "dataInternacaoRedome", "dataEncerramento",
@@ -49,9 +64,6 @@ public class PareamentoContagemPositivosNegativos {
 			throws CsvDataTypeMismatchException, CsvRequiredFieldEmptyException, IOException, ParseException {
 		List<SivepRedomeCSV> registrosSivepFiltrados = filtrarRegistrosSivepPorFaixaEtaria(registrosSivep, idadeMinima, idadeMaxima);
 	
-		List<SusRedomeCSV> registrosSusTotaisFiltradosComResultadoPositivo = new ArrayList<>();
-		List<SusRedomeCSV> registrosSusTotaisFiltradosComResultadoNegativo = new ArrayList<>();
-
 		for (SivepRedomeCSV registroSivepFiltrado : registrosSivepFiltrados) {
 			int numeroSemanas = 1;
 			
@@ -63,7 +75,7 @@ public class PareamentoContagemPositivosNegativos {
 			
 			registrosSusFiltradosRegistroSivep = filtrarRegistrosSusPorDataNotificacao(registrosSusFiltradosRegistroSivep, registroSivepFiltrado, numeroSemanas);
 			
-			registrosSusFiltradosRegistroSivep = filtrarRegistrosSusPorMunicipio(registrosSusFiltradosRegistroSivep, registroSivepFiltrado);
+			//registrosSusFiltradosRegistroSivep = filtrarRegistrosSusPorMunicipio(registrosSusFiltradosRegistroSivep, registroSivepFiltrado);
 			
 			registrosSusFiltradosRegistroSivep = filtrarRegistrosSusPorAreaMunicipio(registrosSusFiltradosRegistroSivep, registroSivepFiltrado);
 			
@@ -71,19 +83,12 @@ public class PareamentoContagemPositivosNegativos {
 			
 			registrosSusFiltradosRegistroSivep = filtrarRegistrosSusPorTipoTesteComCovid(registrosSusFiltradosRegistroSivep);
 			
-		    registrosSusTotaisFiltradosComResultadoPositivo
-						.addAll(filtrarRegistrosSusPorResultado(registrosSusFiltradosRegistroSivep, "Positivo"));
-		    
-			registrosSusTotaisFiltradosComResultadoNegativo
-						.addAll(filtrarRegistrosSusPorResultado(registrosSusFiltradosRegistroSivep, "Negativo"));
+			registroSivepFiltrado.setQtdPositivos(filtrarRegistrosSusPorResultado(registrosSusFiltradosRegistroSivep, "Positivo").size() + "");
 			
-			registroSivepFiltrado.setQtdPositivos(registrosSusTotaisFiltradosComResultadoPositivo.size() + "");
-			
-			registroSivepFiltrado.setQtdNegativos(registrosSusTotaisFiltradosComResultadoNegativo.size() + "");
+			registroSivepFiltrado.setQtdNegativos(filtrarRegistrosSusPorResultado(registrosSusFiltradosRegistroSivep, "Negativo").size() + "");
 			
 			registrosSivepOrdenado.add(registroSivepFiltrado);
-		}
-		
+		}	
 	}
 
 }
