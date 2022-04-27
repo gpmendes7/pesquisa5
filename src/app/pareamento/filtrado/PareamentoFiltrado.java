@@ -54,7 +54,7 @@ public class PareamentoFiltrado {
 									                   "cpf", "dataNascimento", "municipioNotificacao", 
 									                   "racaCor", "etnia", "nomeMae", 
 									                   "dataNotificacao", "idade", "resultadoTeste", "dataTeste", "tipoTeste",
-									                   "estadoTeste", "evolucaoCaso", "observacaoExclusao", "sexo", "observacaoUso", "sexoRedome", "etniaRedome"));
+									                   "estadoTeste", "evolucaoCaso", "observacaoExclusao", "sexo", "observacaoUso", "sexoRedome", "etniaRedome", "semanaNotificacao"));
 
         SusRedomeCSVHandler.criarCSV(csvSusAtualizado, registrosSusAtualizado); 
 	}
@@ -231,14 +231,14 @@ public class PareamentoFiltrado {
 				new SusRedomeCSV("id", "municipio", "filtroAreaMunicipio", "nomeCompleto", "cpf",
 								 "dataNascimento", "municipioNotificacao", "racaCor", "etnia", "nomeMae", "dataNotificacao",
 								 "idade", "resultadoTeste", "dataTeste", "tipoTeste", "estadoTeste", "evolucaoCaso",
-								 "observacaoExclusao", "sexo", "observacaoUso", "sexoRedome", "etniaRedome"));
+								 "observacaoExclusao", "sexo", "observacaoUso", "sexoRedome", "etniaRedome", "semanaNotificacao"));
 		SusRedomeCSVHandler2.criarCSV(csvResultadoPositivo, registrosSusTotaisFiltradosComResultadoPositivo);
 
 		registrosSusTotaisFiltradosComResultadoNegativo.add(0,
 				new SusRedomeCSV("campo1", "municipio", "filtroAreaMunicipio", "nomeCompleto", "cpf",
 						         "dataNascimento", "municipioNotificacao", "racaCor", "etnia", "nomeMae", "dataNotificacao",
 						         "idade", "resultadoTeste", "dataTeste", "tipoTeste", "estadoTeste", "evolucaoCaso",
-						         "observacaoExclusao", "sexo", "observacaoUso", "sexoRedome", "etniaRedome"));
+						         "observacaoExclusao", "sexo", "observacaoUso", "sexoRedome", "etniaRedome", "semanaNotificacao"));
 
 		SusRedomeCSVHandler2.criarCSV(csvResultadoNegativo, registrosSusTotaisFiltradosComResultadoNegativo);
 
@@ -248,7 +248,7 @@ public class PareamentoFiltrado {
 				new SivepRedomeCSV("identificacao", "nomeCompleto", "dataNascimento", "idade", "municipio",
 						"id", "sexo", "racaCor", "dataInternacao", "dataInternacaoRedome", "dataEncerramento",
 						"dataEncerramentoRedome", "evolucaoCaso", "evolucaoCasoRedome", "dataNotificacao",
-						"resultadoTeste", "sexoRedome", "etniaRedome"));
+						"resultadoTeste", "sexoRedome", "etniaRedome", "semanaNotificacao", "qtdPositivos", "qtdNegativos"));
 
 		SivepRedomeCSVHandler.criarCSV(csvSivepUsados, registrosSivepFiltrados);
 
@@ -256,7 +256,7 @@ public class PareamentoFiltrado {
 				new SivepRedomeCSV("identificacao", "nomeCompleto", "dataNascimento", "idade", "municipio",
 						"id", "sexo", "racaCor", "dataInternacao", "dataInternacaoRedome", "dataEncerramento",
 						"dataEncerramentoRedome", "evolucaoCaso", "evolucaoCasoRedome", "dataNotificacao",
-						"resultadoTeste", "sexoRedome", "etniaRedome"));
+						"resultadoTeste", "sexoRedome", "etniaRedome", "semanaNotificacao", "qtdPositivos", "qtdNegativos"));
 
 		SivepRedomeCSVHandler.criarCSV(csvSivepNaoUsados, registrosSivepNaoUsados);
 	}

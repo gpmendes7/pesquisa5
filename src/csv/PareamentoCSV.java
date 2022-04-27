@@ -21,6 +21,7 @@ public class PareamentoCSV {
 	private String intervalo;
 	private String sexoRedome;
 	private String etniaRedome;
+	private String semanaNotificacao;
 	
 	public PareamentoCSV() {
 	
@@ -49,6 +50,32 @@ public class PareamentoCSV {
 		this.intervalo = intervalo;
 		this.sexoRedome = sexoRedome;
 		this.etniaRedome = etniaRedome;
+	}
+	
+	public PareamentoCSV(String id, String identificacao, String nomeCompleto, String cpf, String municipio,
+			String regiao, String filtroAreaMunicipio, String dataNotificacao, String sexo, String idade,
+			String racaCor, String tipoTeste, String resultadoTeste, String desfecho, String origem,
+			String evolucaoCaso, String intervalo, String sexoRedome, String etniaRedome, String semanaNotificacao) {
+		this.id = id;
+		this.identificacao = identificacao;
+		this.nomeCompleto = nomeCompleto;
+		this.cpf = cpf;
+		this.municipio = municipio;
+		this.regiao = regiao;
+		this.filtroAreaMunicipio = filtroAreaMunicipio;
+		this.dataNotificacao = dataNotificacao;
+		this.sexo = sexo;
+		this.idade = idade;
+		this.racaCor = racaCor;
+		this.tipoTeste = tipoTeste;
+		this.resultadoTeste = resultadoTeste;
+		this.desfecho = desfecho;
+		this.origem = origem;
+		this.evolucaoCaso = evolucaoCaso;
+		this.intervalo = intervalo;
+		this.sexoRedome = sexoRedome;
+		this.etniaRedome = etniaRedome;
+		this.semanaNotificacao = semanaNotificacao;
 	}
 
 	public String getId() {
@@ -201,5 +228,13 @@ public class PareamentoCSV {
 
 	public void setEtniaRedome(String etniaRedome) {
 		this.etniaRedome = etniaRedome;
+	}
+	
+	public String getSemanaNotificacao() {
+		return semanaNotificacao;
+	}
+	
+	public void setSemanaNotificacao(String semanaNotificacao) {
+		this.semanaNotificacao = semanaNotificacao;
 	}
 }

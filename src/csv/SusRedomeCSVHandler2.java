@@ -27,7 +27,7 @@ public class SusRedomeCSVHandler2 {
 		String[] colunas = { "id", "municipio", "filtroAreaMunicipio", "nomeCompleto", "cpf", "dataNascimento", "municipioNotificacao",
 							 "racaCor", "etnia", "nomeMae", "dataNotificacao", "idade", "resultadoTeste", 
 							 "dataTeste", "tipoTeste", "estadoTeste", "evolucaoCaso", "observacaoExclusao",
-							 "sexo", "observacaoUso", "sexoRedome", "etniaRedome" };
+							 "sexo", "observacaoUso", "sexoRedome", "etniaRedome", "semanaNotificacao" };
  
 		strategy.setColumnMapping(colunas);
 	}

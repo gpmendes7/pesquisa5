@@ -27,7 +27,7 @@ public class PareamentoCSVHandler {
 		String[] colunas = { "id", "identificacao", "nomeCompleto", "cpf", "municipio", "regiao",
 							 "filtroAreaMunicipio", "dataNotificacao", "sexo", "idade", "racaCor",
 							 "tipoTeste", "resultadoTeste", "desfecho", "origem", "evolucaoCaso",
-							 "intervalo", "sexoRedome", "etniaRedome"};
+							 "intervalo", "sexoRedome", "etniaRedome", "semanaNotificacao"};
  
 		strategy.setColumnMapping(colunas);
 	}

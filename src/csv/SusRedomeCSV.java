@@ -86,6 +86,38 @@ public class SusRedomeCSV {
 		this.etniaRedome = etniaRedome;
 		this.semanaNotificacao = semanaNotificacao;
 	}
+	
+	
+
+	public SusRedomeCSV(String id, String municipio, String filtroAreaMunicipio, String nomeCompleto, String cpf,
+			String dataNascimento, String municipioNotificacao, String racaCor, String etnia, String nomeMae,
+			String dataNotificacao, String idade, String resultadoTeste, String dataTeste, String tipoTeste,
+			String estadoTeste, String evolucaoCaso, String observacaoExclusao, String sexo, String observacaoUso,
+			String sexoRedome, String etniaRedome, String semanaNotificacao) {
+		this.id = id;
+		this.municipio = municipio;
+		this.filtroAreaMunicipio = filtroAreaMunicipio;
+		this.nomeCompleto = nomeCompleto;
+		this.cpf = cpf;
+		this.dataNascimento = dataNascimento;
+		this.municipioNotificacao = municipioNotificacao;
+		this.racaCor = racaCor;
+		this.etnia = etnia;
+		this.nomeMae = nomeMae;
+		this.dataNotificacao = dataNotificacao;
+		this.idade = idade;
+		this.resultadoTeste = resultadoTeste;
+		this.dataTeste = dataTeste;
+		this.tipoTeste = tipoTeste;
+		this.estadoTeste = estadoTeste;
+		this.evolucaoCaso = evolucaoCaso;
+		this.observacaoExclusao = observacaoExclusao;
+		this.sexo = sexo;
+		this.observacaoUso = observacaoUso;
+		this.sexoRedome = sexoRedome;
+		this.etniaRedome = etniaRedome;
+		this.semanaNotificacao = semanaNotificacao;
+	}
 
 	public String getId() {
 		return id;
