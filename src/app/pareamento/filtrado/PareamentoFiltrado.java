@@ -126,6 +126,7 @@ public class PareamentoFiltrado {
 					fileWriter.write("Não filtrou registros do sus por data de notificação\n");
 				}
 				
+				/*
 				if (filtragem < 5) {
 					registrosSusFiltradosRegistroSivep = filtrarRegistrosSusPorAreaMunicipio(
 							registrosSusFiltradosRegistroSivep, registroSivepFiltrado);
@@ -133,8 +134,8 @@ public class PareamentoFiltrado {
 				} else {
 					fileWriter.write("Não filtrou registros do sus por área\n");
 				}
+				*/
 
-				/*
 				if (filtragem < 4) {
 					registrosSusFiltradosRegistroSivep = filtrarRegistrosSusPorMunicipio(
 							registrosSusFiltradosRegistroSivep, registroSivepFiltrado);
@@ -150,7 +151,6 @@ public class PareamentoFiltrado {
 				} else {
 					fileWriter.write("Não filtrou registros do sus por área\n");
 				}
-				*/
 				
 				if (filtragem < 3) {
 					registrosSusFiltradosRegistroSivep = filtrarRegistrosSusPorSexo(registrosSusFiltradosRegistroSivep,
